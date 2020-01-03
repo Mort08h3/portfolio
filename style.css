@@ -1,0 +1,534 @@
+/***** GENERAL INDSTILLINGER START *****/
+* {
+    box-sizing: border-box
+}
+
+body {
+    margin: 0;
+}
+
+#artists,
+#index,
+#about,
+pr_funding,
+shows {
+    margin: 50px 15px 0 15px;
+}
+
+
+img,
+iframe {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+h1,
+h2 {
+    font-family: titling-gothic-fb-condensed, sans-serif;
+
+    font-weight: 700;
+
+    font-style: normal;
+
+    font-size: 3rem;
+}
+
+h2 {
+    font-family: titling-gothic-fb-condensed, sans-serif;
+
+    font-weight: 700;
+
+    font-style: normal;
+    font-size: 1.3em;
+}
+
+h3 {
+    font-family: titling-gothic-fb-condensed, sans-serif;
+
+    font-weight: 700;
+
+    font-style: normal;
+    font-size: 1em;
+}
+
+p,
+nav,
+a,
+footer,
+.text,
+table {
+    font-family: 'Lato', sans-serif;
+    color: black;
+    line-height: 1.6;
+}
+
+#logo {
+    width: 25%;
+}
+
+.spacer {
+    height: 100px;
+}
+
+
+.hide {
+    display: none;
+}
+
+
+
+
+
+
+
+/***** GENERAL INDSTILLINGER SLUT *****/
+
+/***** HEADER START *****/
+.desktop {
+    display: none;
+}
+
+li img {
+    display: none;
+}
+
+
+.logo {
+    position: fixed;
+    background-image: url(assets/logo_2.png);
+    background-repeat: no-repeat;
+    width: 40vw;
+    height: 22.5vw;
+    background-size: 100%;
+
+    left: 30vw;
+    z-index: 3;
+    margin: 10px 0;
+
+}
+
+header {
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    height: 100px;
+    padding: 20px 0 20px 10px;
+
+}
+
+.hidden {
+    /*    display: none;*/
+    /*    transform: scale(0);*/
+    transform: translateX(-100%);
+    opacity: 0;
+}
+
+#menuknap {
+    position: fixed;
+    display: inline-block;
+    width: 7%;
+    top: 42px;
+
+}
+
+#menu {
+    list-style-type: none;
+    transition: transform .3s;
+    transform-origin: top left;
+    background-color: white;
+    width: 100%;
+    z-index: 100;
+    padding: 40px 20px;
+    margin-left: -10px;
+}
+
+#logo_image {
+    position: fixed;
+    width: 60vw;
+    left: 25vw;
+
+}
+
+header nav a {
+    margin: 10px;
+    text-decoration: none;
+}
+
+header nav a:hover {
+    color: steelblue;
+}
+
+header a:link {
+    font-family: 'Lato', sans-serif;
+    color: #000000;
+    font-size: 1rem;
+    text-align: center;
+}
+
+header a:visited {
+    font-family: 'Lato', sans-serif;
+    color: darkslategray;
+    font-size: 1rem;
+}
+
+
+
+
+
+
+
+
+/***** HEADER SLUT *****/
+
+/***** FOOTER START *****/
+footer {
+    margin-top: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100vw;
+    height: 100%;
+    background-color: #000000;
+    color: white;
+}
+
+footer .col_bottom {
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+
+    flex-direction: row;
+    justify-content: space-around;
+    /*justify-content: center;*/
+    align-items: center;
+}
+
+footer .col_bottom .col {
+    padding: 0;
+    /*    padding: 0 40px;*/
+}
+
+footer .col_bottom .col .col:last-child {
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end;
+
+}
+
+footer .col_bottom .col .col:last-child img {
+    height: 30px;
+    width: 30px;
+    padding: 4px 6px 10px 0;
+}
+
+
+footer p,
+footer a,
+footer h2 {
+    margin: 0;
+    color: white;
+    text-decoration: none;
+}
+
+footer h2 {
+    font-size: .8rem;
+}
+
+footer p {
+    font-size: 0.75rem;
+}
+
+footer a:hover {
+    color: steelblue;
+}
+
+
+/***** FOOTER SLUT *****/
+
+
+/***** Landing Page starter *****/
+#landing_page .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#landing_page .sectionwrapper .col_top {
+    overflow-x: hidden;
+    z-index: -1;
+}
+
+#landing_page .hide {
+    display: none;
+}
+
+#landing_page .sectionwrapper .col_bottom {
+    padding: 0 25px;
+}
+
+#landing_page .titel_slide,
+#landing_page .start_slide,
+#landing_page .simon_slide {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 56.25vh;
+    width: 100vw;
+}
+
+#landing_page .titel_slide {
+    /*background-image: url(assets/titel.svg);*/
+    background-position: 100%;
+}
+
+#landing_page .start_slide {
+    /* background-image: url(assets/Startside.svg);*/
+    background-position: 100%;
+}
+
+#landing_page .simon_slide {
+    /*background-image: url(https://youtu.be/4j8-A9cp9PQ);*/
+    background-position: 50%;
+}
+
+#landing_page .dot_container {
+    margin-top: 10px;
+    text-align: center;
+}
+
+#landing_page .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: 0.6s ease;
+}
+
+#landing_page .active,
+#landing_page .dot:hover {
+    background-color: #717171;
+}
+
+
+#landing_page .fade {
+    animation-name: fade_kf;
+    animation-duration: 1.5s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-out;
+}
+
+@keyframes fade_kf {
+    from {
+        opacity: .55;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+
+
+
+
+/***** Landing Page slutter *****/
+/* ANIMATIONER */
+
+.hidden {
+    transform: translateX(-100%);
+    animation-duration: 0.3s;
+}
+
+#menuknap {
+    display: inline-block;
+}
+
+#menu {
+    list-style-type: none;
+}
+
+
+/***** SEKTIONER SLUT *****/
+
+
+@media only screen and (min-width: 770px) {
+
+    /***** GENERAL INDSTILLINGER START *****/
+    #about,
+    #pr_funding,
+    #artists,
+    #shows {
+        margin: 120px 200px 0 200px;
+    }
+
+    section {
+        margin: 0 200px;
+    }
+
+
+    /***** GENERAL INDSTILLINGER SLUT *****/
+
+    /***** HEADER START *****/
+
+    .desktop {
+        display: none;
+    }
+
+    .mobile {
+        display: none;
+    }
+
+    header {
+        position: fixed;
+        width: 100vw;
+    }
+
+    nav {
+        margin: auto;
+        width: 100%;
+    }
+
+
+    /*
+    .logo {
+        position: absolute;
+        background-image: url(photos/logo.png);
+        background-repeat: no-repeat;
+        width: 5vw;
+        height: 6vw;
+        background-size: 100%;
+
+
+*/
+    #menu img {
+        display: inline;
+        width: 25vw;
+        margin-top: -15px;
+
+    }
+
+    #menu {
+        display: flex;
+        justify-content: center;
+        list-style-type: none;
+        transition: transform .3s;
+        transform-origin: top left;
+        width: 100%;
+        padding: 20px 20px;
+
+    }
+
+
+    header nav {
+        padding: 0;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    header nav a {
+        border: 1px solid;
+        border-color: #ffffff;
+        background-color: #ffffff;
+        padding: 16px;
+        margin: 4px;
+        text-decoration: none;
+    }
+
+    header nav a:hover {
+        color: steelblue;
+    }
+
+    header a:link {
+        font-family: 'Lato', sans-serif;
+        color: #000000;
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    header a:visited {
+        font-family: 'Lato', sans-serif;
+        color: darkslategray;
+        font-size: 1rem;
+    }
+
+    /*
+    #logo {
+        width: 100%;
+        padding: 0 40px;
+    }
+*/
+
+    #menuknap {
+        display: none;
+    }
+
+    #menu.hidden {
+        transform: translateX(0);
+        opacity: 1;
+    }
+
+    #menu li {
+        display: inline-block;
+    }
+
+
+
+
+    /***** HEADER SLUT *****/
+
+    /***** FOOTER START *****/
+    footer .col_bottom {
+        padding: 0 15px;
+        justify-content: center;
+    }
+
+    footer .col_bottom .col {
+        padding: 0 40px;
+    }
+
+    /***** FOOTER SLUT *****/
+
+    /***** SEKTIONER START *****/
+
+    /***** LANDING PAGE START *****/
+    #landing_page .sectionwrapper {
+        margin-top: 120px;
+
+    }
+
+    #landing_page .titel_slide,
+    #landing_page .start_slide,
+    #landing_page .simon_slide {
+        height: 56.25vh;
+        width: 100vw;
+        background-size: cover;
+        background-position: 100% 0%;
+
+
+    }
+
+    #landing_page .simon_slide {
+        background-position: 100% 0%;
+        height: 56.25vh;
+        width: 100vw;
+    }
+
+    #landing_page .start_slide {
+        background-position: 100% 0%;
+        height: 56.25vh;
+        width: 100vw;
+    }
+
+    #landing_page .sectionwrapper .col_bottom {
+        padding: 0;
+    }
+
+
+    /***** LANDING PAGE SLUT *****/
