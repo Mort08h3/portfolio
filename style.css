@@ -355,6 +355,8 @@ footer a:hover {
 
 /***** SEKTIONER SLUT *****/
 
+/*-------------------------------Query 1------------------------------*/
+
 
 @media only screen and (min-width: 770px) {
 
@@ -407,7 +409,7 @@ footer a:hover {
 */
     #menu img {
         display: inline;
-        width: 25vw;
+        width: 15vw;
         margin-top: -15px;
 
     }
@@ -434,7 +436,7 @@ footer a:hover {
 
     header nav a {
         border: 1px solid;
-        border-color: #ffffff;
+        border-color: #0000;
         background-color: #ffffff;
         padding: 16px;
         margin: 4px;
@@ -499,36 +501,46 @@ footer a:hover {
 
     /***** LANDING PAGE START *****/
     #landing_page .sectionwrapper {
-        margin-top: 120px;
+        width: 100vw;
+        height: 56.25vh;
+        margin-top: 0px;
+        display: flex;
 
     }
 
-    #landing_page .titel_slide,
+    /* #landing_page .titel_slide,
     #landing_page .start_slide,
     #landing_page .simon_slide {
         height: 56.25vh;
         width: 100vw;
         background-size: cover;
-        background-position: 100% 0%;
-
-
+        background-position: 100%;
+        flex: 0;
+*/
+    #landing_page .title_slide {
+        background-position: 100%;
+        height: 56.25vh;
+        width: 100vw;
+        flex: 1;
     }
 
     #landing_page .simon_slide {
-        background-position: 100% 0%;
+        background-position: 100%;
         height: 56.25vh;
         width: 100vw;
+        flex: 1;
     }
 
     #landing_page .start_slide {
-        background-position: 100% 0%;
+        background-position: 100%;
         height: 56.25vh;
         width: 100vw;
+        flex: 1;
     }
 
     #landing_page .sectionwrapper .col_bottom {
         padding: 0;
     }
+}
 
-
-    /***** LANDING PAGE SLUT *****/
+/***** LANDING PAGE SLUT *****/

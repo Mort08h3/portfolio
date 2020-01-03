@@ -24,5 +24,5 @@ function showSlides() {
     slides[slideIndex - 1].classList.remove("hide");
     slides[slideIndex - 1].classList.add("fade");
     dots[slideIndex - 1].classList.add("active");
-    setTimeout(showSlides, 2500);
+    setTimeout(showSlides, 3500);
 }
