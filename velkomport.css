@@ -5,104 +5,364 @@
     box-sizing: border-box;
 }
 
+a {
+    color: white;
+}
+
+/* mouse over link */
+a:hover {
+    color: hotpink;
+}
+
+
 body {
     font-family: sans-serif;
+    font-size: 1.5rem;
 }
 
-nav {
+#port {
+    width: 100vw;
+    height: 56.25vw;
+    position: relative;
+}
+
+#menu {
+    background: #000;
     height: 10vh;
-    background: #5b78c7;
+    width: 100vw;
 }
 
-.nav-links {
-    display: flex;
-    list-style: none;
-    width: 50%;
-    height: 100%;
-    justify-content: space-around;
-    align-items: center;
-    margin-left: none;
-}
+#menuknap {
 
-.nav-links li a {
+
+
+    position: absolute;
+    top: 2vh;
+    right: 2.5vw;
     color: white;
-    font-size: 16px;
 }
 
-.landing {
-    height: 90vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+#menux {
+
+
+    position: absolute;
+    top: 2vh;
+    right: 3vw;
+    color: white;
 }
 
-.landing h1 {
-    margin: 100px;
-    font-size: 50px;
-    color: #ae5fce;
+#links {
+    position: absolute;
+    top: 10vh;
+    right: 0vw;
+    width: 50vw;
+    height: 38vh;
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+    font-size: 1rem;
+    justify-content: space-around;
+    border-radius: 0px 0px 0px 60px;
+}
+
+#home_link {
+    text-align: end;
+    color: white;
+    padding: 1vw;
+    margin: 2vw;
+    border-bottom: 0.1vh solid white;
+}
+
+#tema2_link {
+    text-align: end;
+    color: white;
+    padding: 1vw;
+    margin: 2vw;
+    border-bottom: 0.1vh solid white;
+}
+
+#tema3_link {
+    text-align: end;
+    color: white;
+    padding: 1vw;
+    margin: 2vw;
+    border-bottom: 0.1vh solid white;
+}
+
+#tema4_link {
+    text-align: end;
+    color: white;
+    padding: 1vw;
+    margin: 2vw;
+    border-bottom: 0.1vh solid white;
+}
+
+#tema5_link {
+    text-align: end;
+    color: white;
+    padding: 1vw;
+    margin: 2vw;
+    border-bottom: 0.1vh solid white;
+}
+
+
+#logo_container {
+    width: 100%;
+}
+
+#logo_sprite {
+    z-index: 1;
+    position: absolute;
+    background-image: url(assets/logo_2.png);
+
+    background-size: cover;
+    top: 0vh;
+    right: 65vw;
+    width: 35vw;
+    height: 9vh;
+    padding: 0vw;
+    border-radius: 0px 0px 0px 30px;
+}
+
+#tema2 {
+    position: absolute;
+    top: 40vh;
+    left: 0vw;
+    text-align: start;
+    background-color: black;
+    color: white;
+    width: 100vw;
+
+    padding: 3vw;
+
+    border-bottom: 0.1vh solid white;
+    border-radius: 30px 30px 30px 30px;
+
+}
+
+#tema3 {
+    position: absolute;
+    top: 40vh;
+    left: 0vw;
+    text-align: start;
+    background-color: black;
+    color: white;
+    width: 100vw;
+
+    padding: 3vw;
+
+    border-bottom: 0.1vh solid white;
+    border-radius: 30px 30px 30px 30px;
+
+}
+
+#tema4 {
+    position: absolute;
+    top: 40vh;
+    left: 0vw;
+    text-align: start;
+    background-color: black;
+    color: white;
+    width: 100vw;
+    padding: 3vw;
+
+    border-bottom: 0.1vh solid white;
+    border-radius: 30px 30px 30px 30px;
+
+}
+
+#tema5 {
+    position: absolute;
+    top: 40vh;
+    left: 0vw;
+    text-align: start;
+    background-color: black;
+    color: white;
+    width: 100vw;
+
+    padding: 3vw;
+
+    border-bottom: 0.1vh solid white;
+    border-radius: 30px 30px 30px 30px;
+
+}
+
+
+/*----------------------------animationer-------------------------*/
+
+.skjul {
+    display: none;
+    pointer-events: none;
 }
 
 
 
 /*---------------------------Media query 1 -----------------------*/
-@media screen and (max-width: 770px) {
+@media only screen and (min-width: 770px) {
+    a:hover {
+        color: red;
+    }
 
-    nav {
+    #port {
         position: relative;
     }
 
-    .hamburger {
-        position: absolute;
-        cursor: pointer;
-        right: 5%;
-        top: 50%;
-        transform: translate(-5%, -50%);
-        z-index: 2;
+    #menu {
+        display: none;
+        pointer-events: none;
+
     }
 
-    .nav-links {
-        position: fixed;
-        background: #5b78c7;
-        height: 100vh;
-        width: 100%;
-        flex-direction: column;
-        clip-path: circle(100px at 90% -10%);
-        -webkit-clip-path: circle(100px at 90% -10%);
-        transition: all 1s ease-out;
+    #menuknap {
+        display: none;
         pointer-events: none;
     }
 
-    .nav-links.open {
-        clip-path: circle(1000px at 90% -10%);
-        -webkit-clip-path: circle(1000px at 90% -10%);
-        pointer-events: all;
+    #links {
+        position: absolute;
+        top: 0vw;
+        left: 0vw;
+        background-color: white;
+        width: 90vw;
+        height: 12vh;
+        display: flex;
     }
 
-    .landing {
-        flex-direction: column;
+    #home_link {
+
+        text-align: center;
+
+        background-color: black;
+        color: white;
+        flex: 6;
+        margin: 0vw;
+
     }
 
-    .nav-links li {
-        opacity: 0;
+    #tema2_link {
+
+        text-align: center;
+
+
+
+        background-color: black;
+        color: white;
+        flex: 6;
+        margin: 0vw;
+
     }
 
-    .nav-links li a {
-        font-size: 25px;
+    #tema3_link {
+
+        text-align: center;
+        background-color: black;
+        color: white;
+        flex: 6;
+        margin: 0vw;
+
     }
 
-    .nav-links li:nth-child(1) {
-        transition: all 0.5s ease 0.2s;
+    #tema4_link {
+
+        text-align: center;
+
+
+
+        background-color: black;
+        color: white;
+        flex: 6;
+        margin: 0vw;
+
     }
 
-    .nav-links li:nth-child(2) {
-        transition: all 0.5s ease 0.4s;
+    #tema5_link {
+        text-align: center;
+
+
+
+        background-color: black;
+        color: white;
+        flex: 6;
+        margin: 0vw;
     }
 
-    .nav-links li:nth-child(3) {
-        transition: all 0.5s ease 0.6s;
+
+
+    #logo_container {
+        position: relative;
+
+
     }
 
-    li.fade {
-        opacity: 1;
+    #logo_sprite {
+        z-index: 2;
+        position: absolute;
+        background-color: #000;
+        background-image: url(assets/logo_2.png);
+        background-size: cover;
+        top: 0vw;
+        right: 0vw;
+        width: 12vw;
+        height: 15vh;
+        padding: 0vw;
+        border-radius: 0px 0px 0px 30px;
+        align-content: center;
     }
+
+    #tema2 {
+        position: absolute;
+        top: 4vw;
+        left: 5vw;
+        height: 10vw;
+        width: 30vw;
+        padding: 3vw;
+        background-color: #000;
+        color: white;
+        border-radius: 0px 0px 30px 30px;
+
+
+    }
+
+    #tema3 {
+        position: absolute;
+        height: 12.5vw;
+        width: 30vw;
+        top: 4vw;
+        left: 30vw;
+        padding: 3vw;
+        background-color: #000;
+        color: white;
+        border-radius: 0px 0px 30px 30px;
+
+
+    }
+
+    #tema4 {
+        position: absolute;
+        height: 18vw;
+        width: 30vw;
+        top: 4vw;
+        left: 40vw;
+        padding: 3vw;
+        background-color: #000;
+        color: white;
+        border-radius: 0px 0px 30px 30px;
+
+
+    }
+
+    #tema5 {
+        position: absolute;
+        height: 12vw;
+        width: 30vw;
+        top: 4vw;
+        left: 60vw;
+        padding: 3vw;
+        background-color: #000;
+        color: white;
+        border-radius: 0px 0px 30px 30px;
+
+
+    }
+
 }
