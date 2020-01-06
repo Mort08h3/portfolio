@@ -27,7 +27,7 @@ function deskUp() {
 
     //-------------------remove forrige listeners-----------------//
 
-    document.querySelector("#pages").removeEventListener("mouseover", deskUp);
+    //document.querySelector("#pages").removeEventListener("mouseover", deskUp);
     document.querySelector("#logo_container").removeEventListener("mouseover", deskUp);
     document.querySelector("#home_link").removeEventListener("mouseover", deskUp);
 

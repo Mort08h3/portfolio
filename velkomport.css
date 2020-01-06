@@ -1,8 +1,19 @@
 /*----------------------------Generel--------------------------*/
-* {
+
+html {
+    font-size: 1rem;
+    font-family: 'Lato', sans-serif;
+    color: black;
+}
+
+
+
+
+body {
+
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+
 }
 
 a {
@@ -14,16 +25,21 @@ a:hover {
     color: hotpink;
 }
 
+#screen {
+    position: relative;
+    width: 100vw;
+    height: 56.25vw;
+}
 
-body {
-    font-family: sans-serif;
-    font-size: 1.5rem;
+#topnav {
+    position: fixed;
+    top: 0;
+    z-index: 20;
 }
 
 #port {
-    width: 100vw;
-    height: 56.25vw;
-    position: relative;
+    position: absolute;
+    background-size: cover;
 }
 
 #menu {
@@ -53,9 +69,11 @@ body {
 
 #links {
     position: absolute;
+    background-size: cover;
+    z-index: 2;
     top: 10vh;
     right: 0vw;
-    width: 50vw;
+
     height: 38vh;
     background-color: black;
     color: white;
@@ -188,6 +206,106 @@ body {
 }
 
 
+#pages {
+    position: absolute;
+    top: 20vw;
+    width: 100%;
+
+}
+
+#start {
+    position: absolute;
+    top: 20vw;
+    width: 100%;
+
+}
+
+#velkommen {
+    position: absolute;
+    background-size: cover;
+    top: 5vw;
+    left: 40vw;
+
+}
+
+#start_img {
+    position: absolute;
+    background-image: url(assets/logo_2.png);
+    background-size: cover;
+    left: 14vw;
+    width: 64vw;
+    height: 38vw;
+}
+
+#start_txt {
+    position: absolute;
+    background-size: cover;
+    top: 40vw;
+
+}
+
+#t2 {}
+
+#t3 {
+    position: absolute;
+}
+
+#t4 {
+    position: absolute;
+}
+
+#t5 {
+    position: absolute;
+}
+
+#th2 {
+    position: absolute;
+}
+
+#th3 {
+    position: absolute;
+}
+
+#th4 {
+    position: absolute;
+}
+
+#th5 {
+    position: absolute;
+}
+
+#t2_img {
+    position: absolute;
+}
+
+#t3_img {
+    position: absolute;
+}
+
+#t4_img {
+    position: absolute;
+}
+
+#t5_img {
+    position: absolute;
+}
+
+#t2_txt {
+    position: absolute;
+}
+
+#t3_txt {
+    position: absolute;
+}
+
+#t4_txt {
+    position: absolute;
+}
+
+#t5_txt {
+    position: absolute;
+}
+
 /*----------------------------animationer-------------------------*/
 
 .skjul {
@@ -204,8 +322,11 @@ body {
     }
 
     #port {
-        position: relative;
+        position: absolute;
+
     }
+
+
 
     #menu {
         display: none;
@@ -226,6 +347,7 @@ body {
         width: 90vw;
         height: 12vh;
         display: flex;
+        z-index: 20;
     }
 
     #home_link {
@@ -236,6 +358,11 @@ body {
         color: white;
         flex: 6;
         margin: 0vw;
+        padding: 2vw;
+
+
+        border-right: 0.1vw solid white;
+        z-index: 20;
 
     }
 
@@ -249,6 +376,11 @@ body {
         color: white;
         flex: 6;
         margin: 0vw;
+        padding: 2vw;
+
+        border-right: 0.1vw solid white;
+        border-left: 0.1vw solid white;
+        z-index: 20;
 
     }
 
@@ -259,6 +391,12 @@ body {
         color: white;
         flex: 6;
         margin: 0vw;
+        padding: 2vw;
+
+        border-right: 0.1vw solid white;
+        border-left: 0.1vw solid white;
+        z-index: 20;
+
 
     }
 
@@ -272,6 +410,12 @@ body {
         color: white;
         flex: 6;
         margin: 0vw;
+        padding: 2vw;
+
+        border-right: 0.1vw solid white;
+        border-left: 0.1vw solid white;
+        z-index: 20;
+
 
     }
 
@@ -284,12 +428,17 @@ body {
         color: white;
         flex: 6;
         margin: 0vw;
+        padding: 2vw;
+
+        border-left: 0.1vw solid white;
+        z-index: 20;
+
     }
 
 
 
     #logo_container {
-        position: relative;
+        position: absolute;
 
 
     }
@@ -301,10 +450,10 @@ body {
         background-image: url(assets/logo_2.png);
         background-size: cover;
         top: 0vw;
-        right: 0vw;
-        width: 12vw;
-        height: 15vh;
-        padding: 0vw;
+        left: 90vw;
+        width: 14vw;
+        height: 17vh;
+        padding: 3vw;
         border-radius: 0px 0px 0px 30px;
         align-content: center;
     }
@@ -312,7 +461,7 @@ body {
     #tema2 {
         position: absolute;
         top: 4vw;
-        left: 5vw;
+        left: 18.1vw;
         height: 10vw;
         width: 30vw;
         padding: 3vw;
@@ -342,7 +491,7 @@ body {
         height: 18vw;
         width: 30vw;
         top: 4vw;
-        left: 40vw;
+        left: 42vw;
         padding: 3vw;
         background-color: #000;
         color: white;
@@ -357,12 +506,91 @@ body {
         width: 30vw;
         top: 4vw;
         left: 60vw;
-        padding: 3vw;
+        padding: 3vw 3vw 3vw 3vw;
         background-color: #000;
         color: white;
         border-radius: 0px 0px 30px 30px;
 
 
+    }
+
+    /*---------------------pages-----------------*/
+    #pages {
+        position: absolute;
+        top: 1vw;
+        z-index: 0;
+
+    }
+
+    /*--------------------t2link-----------*/
+    #t2link1 {}
+
+    #t2link2 {}
+
+    #t2doku {}
+
+    /*--------------------t3link-----------*/
+
+
+
+
+    #t3link1 {}
+
+    #t3link2 {}
+
+    #t3link3 {}
+
+    #t3link4 {}
+
+    #t3doku {}
+
+    /*--------------------t4link-----------*/
+    #t4link1 {}
+
+    #t4link2 {}
+
+    #t4link3 {}
+
+    #t4link4 {}
+
+    #t4link5 {}
+
+    #t4doku {}
+
+    /*--------------------t5link-----------*/
+    #t5link1 {}
+
+    #t5link2 {}
+
+    #t5link3 {}
+
+    #t5doku {}
+
+    #start {
+        position: absolute;
+        top: 12vw;
+    }
+
+    #velkommen {
+        position: absolute;
+        top: 2vh;
+        justify-content: center;
+    }
+
+
+
+    #start_img {
+
+        top: 20vh;
+        z-index: 1;
+
+    }
+
+    #start_txt {
+        position: absolute;
+        top: 40vw;
+        text-align: center;
+        background-size: cover;
     }
 
 }
