@@ -274,6 +274,14 @@ function burgerUp() {
 
     //----------remove forrige------------//
     document.querySelector("#menuknap").removeEventListener("click", burgerUp);
+    document.querySelector("#t5link1").removeEventListener("click", burgerUp);
+    document.querySelector("#t4link1").removeEventListener("click", burgerUp);
+    document.querySelector("#t3link1").removeEventListener("click", burgerUp);
+    document.querySelector("#t2link1").removeEventListener("click", burgerUp);
+
+
+
+
     //--------------------- skjul subnavs-----------------//
     document.querySelector("#tema2").classList.add("skjul")
     document.querySelector("#tema3").classList.add("skjul")
@@ -346,6 +354,8 @@ function visTema2() {
     //-------------------- click---> seeT2M -----------//
 
     document.querySelector("#t2link1").addEventListener("click", seeT2M);
+    document.querySelector("#t2link1").addEventListener("click", burgerUp);
+
 
 }
 
@@ -364,6 +374,8 @@ function visTema3() {
     //-------------------- click---> seeT3M -----------//
 
     document.querySelector("#t3link1").addEventListener("click", seeT3M);
+    document.querySelector("#t3link1").addEventListener("click", burgerUp);
+
 
 }
 
@@ -383,6 +395,8 @@ function visTema4() {
     //-------------------- click---> seeT5M -----------//
 
     document.querySelector("#t4link1").addEventListener("click", seeT4M);
+    document.querySelector("#t4link1").addEventListener("click", burgerUp);
+
 
 }
 
@@ -406,6 +420,8 @@ function visTema5() {
     //-------------------- click---> seeT5M -----------//
 
     document.querySelector("#t5link1").addEventListener("click", seeT5M);
+    document.querySelector("#t5link1").addEventListener("click", burgerUp);
+
 
 
 
@@ -500,6 +516,10 @@ function seeT5M() {
     document.querySelector("#tema4").classList.add("skjul")
     document.querySelector("#tema5").classList.add("skjul")
 
+    //----------add skjul på links------------//
+
+
+
     //----------add skjul på andre T------------//
     document.querySelector("#start").classList.add("skjul")
 
@@ -510,6 +530,5 @@ function seeT5M() {
 
     //-------------------- vis T5-----------//
     document.querySelector("#t5").classList.remove("skjul")
-
 
 }

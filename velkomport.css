@@ -74,7 +74,7 @@ a:hover {
     top: 10vh;
     right: 0vw;
 
-    height: 38vh;
+    height: 120vw;
     background-color: black;
     color: white;
     font-family: sans-serif;
@@ -208,14 +208,14 @@ a:hover {
 
 #pages {
     position: absolute;
-    top: 20vw;
+    top: 0vw;
     width: 100%;
 
 }
 
 #start {
     position: absolute;
-    top: 20vw;
+    top: 10vw;
     width: 100%;
 
 }
@@ -223,8 +223,9 @@ a:hover {
 #velkommen {
     position: absolute;
     background-size: cover;
-    top: 5vw;
-    left: 40vw;
+    top: 10vw;
+    left: 0vw;
+    text-align: center;
 
 }
 
@@ -232,6 +233,7 @@ a:hover {
     position: absolute;
     background-image: url(assets/logo_2.png);
     background-size: cover;
+    top: 45vw;
     left: 14vw;
     width: 64vw;
     height: 38vw;
@@ -240,26 +242,43 @@ a:hover {
 #start_txt {
     position: absolute;
     background-size: cover;
-    top: 40vw;
+    top: 70vw;
+    padding: 3vw;
+    text-align: center;
 
 }
 
 #t2 {
     position: absolute;
-    background-size: cover;
+
     width: 100%;
+    top: 20vw;
+    padding: 3vw;
+
 }
 
 #t3 {
     position: absolute;
+    width: 100%;
+    top: 20vw;
+
+
 }
 
 #t4 {
     position: absolute;
+    width: 100%;
+    top: 20vw;
+
+
 }
 
 #t5 {
     position: absolute;
+    width: 100%;
+    top: 20vw;
+
+
 }
 
 #th2 {
@@ -296,18 +315,25 @@ a:hover {
 
 #t2_txt {
     position: absolute;
+    top: 20vw;
 }
 
 #t3_txt {
     position: absolute;
+    top: 20vw;
+
 }
 
 #t4_txt {
     position: absolute;
+    top: 20vw;
+
 }
 
 #t5_txt {
     position: absolute;
+    top: 20vw;
+
 }
 
 /*----------------------------animationer-------------------------*/
