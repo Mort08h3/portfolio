@@ -20,6 +20,14 @@ p {
     font-size: 1.5rem;
 }
 
+h2 {
+    font-size: 3rem;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
 a {
     width: 100%;
     color: white;
@@ -217,6 +225,7 @@ a:hover {
 #pages {
     position: absolute;
     background-size: cover;
+    background-color: #000;
     top: 0vw;
     width: 100%;
 
@@ -262,7 +271,7 @@ a:hover {
     position: absolute;
     background-size: cover;
     width: 100vw;
-    top: 20vw;
+    top: 0vw;
     padding: 0vw;
 
 }
@@ -293,7 +302,17 @@ a:hover {
 
 #th2 {
     position: absolute;
-    padding: 2vw;
+    top: 71vw;
+    left: 3vw;
+
+    padding: 10vw;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 4rem;
+    background-color: antiquewhite;
+    z-index: 1;
+    text-align: center;
+    border-radius: 90vw;
+
 }
 
 #th3 {
@@ -320,9 +339,10 @@ a:hover {
     background-size: cover;
     width: 100vw;
     height: 56.25vw;
-    top: 28vw;
+    top: 22vw;
     left: 0vw;
     padding: 0vw;
+    z-index: 2;
 
 
 }
@@ -333,9 +353,10 @@ a:hover {
     background-size: cover;
     width: 100vw;
     height: 56.25vw;
-    top: 800vw;
+    top: 892vw;
     left: 0vw;
     padding: 0vw;
+
 }
 
 #t3_img {
@@ -360,11 +381,12 @@ a:hover {
     position: absolute;
     background-size: cover;
     background-color: antiquewhite;
-    top: 80vw;
+    top: 101vw;
     width: 90vw;
     padding: 2vw;
     margin: 2vw;
     font-size: 2rem;
+    line-height: 18vw;
     color: #000;
     text-align: end;
     font-family: 'Permanent Marker', cursive;
@@ -398,10 +420,28 @@ a:hover {
 
 #visitpage {
     position: absolute;
+    top: 390vw;
+    left: 10vw;
+    background-color: #000;
+    font-size: 2rem;
+    padding: 2vw;
+    width: 80vw;
+    border-radius: 2vw;
+    text-align: center;
 }
 
 #visitpage2 {
     position: absolute;
+    top: 110vw;
+    left: 8vw;
+    background-color: #000;
+    font-size: 1.2rem;
+    padding: 2vw;
+    width: 80vw;
+    border-radius: 2vw;
+    text-align: center;
+    z-index: 2;
+
 }
 
 /*----------------------------animationer-------------------------*/
