@@ -173,6 +173,8 @@ function seeT2() {
     document.querySelector("#tema5").classList.add("skjul")
 
     //----------add skjul på andre T------------//
+    document.querySelector("#start").classList.add("skjul")
+
     document.querySelector("#t5").classList.add("skjul")
     document.querySelector("#t3").classList.add("skjul")
     document.querySelector("#t4").classList.add("skjul")
@@ -197,6 +199,8 @@ function seeT3() {
     document.querySelector("#tema5").classList.add("skjul")
 
     //----------add skjul på andre T------------//
+    document.querySelector("#start").classList.add("skjul")
+
     document.querySelector("#t2").classList.add("skjul")
     document.querySelector("#t5").classList.add("skjul")
     document.querySelector("#t4").classList.add("skjul")
@@ -220,6 +224,8 @@ function seeT4() {
     document.querySelector("#tema5").classList.add("skjul")
 
     //----------add skjul på andre T------------//
+    document.querySelector("#start").classList.add("skjul")
+
     document.querySelector("#t2").classList.add("skjul")
     document.querySelector("#t3").classList.add("skjul")
     document.querySelector("#t5").classList.add("skjul")
@@ -244,6 +250,8 @@ function seeT5() {
     document.querySelector("#tema5").classList.add("skjul")
 
     //----------add skjul på andre T------------//
+    document.querySelector("#start").classList.add("skjul")
+
     document.querySelector("#t2").classList.add("skjul")
     document.querySelector("#t3").classList.add("skjul")
     document.querySelector("#t4").classList.add("skjul")
@@ -335,6 +343,10 @@ function visTema2() {
     //-------------------- vis subnav-----------//
     document.querySelector("#tema2").classList.remove("skjul")
 
+    //-------------------- click---> seeT2M -----------//
+
+    document.querySelector("#t2link1").addEventListener("click", seeT2M);
+
 }
 
 function visTema3() {
@@ -348,6 +360,10 @@ function visTema3() {
     document.querySelector("#tema3").removeEventListener("click", visTema3);
     //-------------------- vis subnav-----------//
     document.querySelector("#tema3").classList.remove("skjul")
+
+    //-------------------- click---> seeT3M -----------//
+
+    document.querySelector("#t3link1").addEventListener("click", seeT3M);
 
 }
 
@@ -363,6 +379,10 @@ function visTema4() {
     document.querySelector("#tema4").removeEventListener("click", visTema4);
     //-------------------- vis subnav-----------//
     document.querySelector("#tema4").classList.remove("skjul")
+
+    //-------------------- click---> seeT5M -----------//
+
+    document.querySelector("#t4link1").addEventListener("click", seeT4M);
 
 }
 
@@ -382,6 +402,114 @@ function visTema5() {
     document.querySelector("#tema5").removeEventListener("click", visTema5);
     //-------------------- vis subnav-----------//
     document.querySelector("#tema5").classList.remove("skjul")
+
+    //-------------------- click---> seeT5M -----------//
+
+    document.querySelector("#t5link1").addEventListener("click", seeT5M);
+
+
+
+}
+
+function seeT2M() {
+    console.log("seeT2M")
+    //----------remove forrige------------//
+    document.querySelector("#t2link1").removeEventListener("click", seeT2M);
+
+    //----------add skjul på andre------------//
+
+    document.querySelector("#tema2").classList.add("skjul")
+    document.querySelector("#tema3").classList.add("skjul")
+    document.querySelector("#tema4").classList.add("skjul")
+    document.querySelector("#tema5").classList.add("skjul")
+
+    //----------add skjul på andre T------------//
+    document.querySelector("#start").classList.add("skjul")
+
+    document.querySelector("#t5").classList.add("skjul")
+    document.querySelector("#t3").classList.add("skjul")
+    document.querySelector("#t4").classList.add("skjul")
+
+
+    //-------------------- vis T2-----------//
+    document.querySelector("#t2").classList.remove("skjul")
+
+
+}
+
+function seeT3M() {
+    console.log("seeT3M")
+    //----------remove forrige------------//
+    document.querySelector("#t3link1").removeEventListener("click", seeT3M);
+
+    //----------add skjul på andre------------//
+
+    document.querySelector("#tema2").classList.add("skjul")
+    document.querySelector("#tema3").classList.add("skjul")
+    document.querySelector("#tema4").classList.add("skjul")
+    document.querySelector("#tema5").classList.add("skjul")
+
+    //----------add skjul på andre T------------//
+    document.querySelector("#start").classList.add("skjul")
+
+    document.querySelector("#t2").classList.add("skjul")
+    document.querySelector("#t5").classList.add("skjul")
+    document.querySelector("#t4").classList.add("skjul")
+
+    //-------------------- vis T3-----------//
+    document.querySelector("#t3").classList.remove("skjul")
+
+
+}
+
+function seeT4M() {
+    console.log("seeT4M")
+    //----------remove forrige------------//
+    document.querySelector("#t4link1").removeEventListener("click", seeT4M);
+
+    //----------add skjul på andre------------//
+
+    document.querySelector("#tema2").classList.add("skjul")
+    document.querySelector("#tema3").classList.add("skjul")
+    document.querySelector("#tema4").classList.add("skjul")
+    document.querySelector("#tema5").classList.add("skjul")
+
+    //----------add skjul på andre T------------//
+    document.querySelector("#start").classList.add("skjul")
+
+    document.querySelector("#t2").classList.add("skjul")
+    document.querySelector("#t3").classList.add("skjul")
+    document.querySelector("#t5").classList.add("skjul")
+
+    //-------------------- vis T5-----------//
+    document.querySelector("#t4").classList.remove("skjul")
+
+
+}
+
+
+function seeT5M() {
+    console.log("seeT5M")
+    //----------remove forrige------------//
+    document.querySelector("#t5link1").removeEventListener("click", seeT5M);
+
+    //----------add skjul på sub-navs------------//
+
+    document.querySelector("#tema2").classList.add("skjul")
+    document.querySelector("#tema3").classList.add("skjul")
+    document.querySelector("#tema4").classList.add("skjul")
+    document.querySelector("#tema5").classList.add("skjul")
+
+    //----------add skjul på andre T------------//
+    document.querySelector("#start").classList.add("skjul")
+
+    document.querySelector("#t2").classList.add("skjul")
+    document.querySelector("#t3").classList.add("skjul")
+    document.querySelector("#t4").classList.add("skjul")
+
+
+    //-------------------- vis T5-----------//
+    document.querySelector("#t5").classList.remove("skjul")
 
 
 }

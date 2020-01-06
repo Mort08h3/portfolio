@@ -244,7 +244,11 @@ a:hover {
 
 }
 
-#t2 {}
+#t2 {
+    position: absolute;
+    background-size: cover;
+    width: 100%;
+}
 
 #t3 {
     position: absolute;
