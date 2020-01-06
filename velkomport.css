@@ -16,7 +16,12 @@ body {
 
 }
 
+p {
+    font-size: 1.5rem;
+}
+
 a {
+    width: 100%;
     color: white;
 }
 
@@ -35,14 +40,17 @@ a:hover {
     position: fixed;
     top: 0;
     z-index: 20;
+    width: 100%;
 }
 
 #port {
     position: absolute;
-    background-size: cover;
+
 }
 
 #menu {
+
+
     background: #000;
     height: 10vh;
     width: 100vw;
@@ -73,7 +81,7 @@ a:hover {
     z-index: 2;
     top: 10vh;
     right: 0vw;
-
+    width: 30vw;
     height: 120vw;
     background-color: black;
     color: white;
@@ -144,12 +152,12 @@ a:hover {
 
 #tema2 {
     position: absolute;
-    top: 40vh;
+    top: 40vw;
     left: 0vw;
     text-align: start;
     background-color: black;
     color: white;
-    width: 100vw;
+    width: 70vw;
 
     padding: 3vw;
 
@@ -160,12 +168,12 @@ a:hover {
 
 #tema3 {
     position: absolute;
-    top: 40vh;
+    top: 50vw;
     left: 0vw;
     text-align: start;
     background-color: black;
     color: white;
-    width: 100vw;
+    width: 70vw;
 
     padding: 3vw;
 
@@ -176,12 +184,12 @@ a:hover {
 
 #tema4 {
     position: absolute;
-    top: 40vh;
+    top: 60vw;
     left: 0vw;
     text-align: start;
     background-color: black;
     color: white;
-    width: 100vw;
+    width: 70vw;
     padding: 3vw;
 
     border-bottom: 0.1vh solid white;
@@ -191,12 +199,12 @@ a:hover {
 
 #tema5 {
     position: absolute;
-    top: 40vh;
+    top: 100vw;
     left: 0vw;
     text-align: start;
     background-color: black;
     color: white;
-    width: 100vw;
+    width: 70vw;
 
     padding: 3vw;
 
@@ -208,6 +216,7 @@ a:hover {
 
 #pages {
     position: absolute;
+    background-size: cover;
     top: 0vw;
     width: 100%;
 
@@ -224,7 +233,8 @@ a:hover {
     position: absolute;
     background-size: cover;
     top: 10vw;
-    left: 0vw;
+    left: 25vw;
+    padding: 2vw;
     text-align: center;
 
 }
@@ -234,7 +244,7 @@ a:hover {
     background-image: url(assets/logo_2.png);
     background-size: cover;
     top: 45vw;
-    left: 14vw;
+    left: 16vw;
     width: 64vw;
     height: 38vw;
 }
@@ -243,17 +253,17 @@ a:hover {
     position: absolute;
     background-size: cover;
     top: 70vw;
-    padding: 3vw;
+    padding: 4vw;
     text-align: center;
 
 }
 
 #t2 {
     position: absolute;
-
-    width: 100%;
+    background-size: cover;
+    width: 100vw;
     top: 20vw;
-    padding: 3vw;
+    padding: 0vw;
 
 }
 
@@ -283,57 +293,115 @@ a:hover {
 
 #th2 {
     position: absolute;
+    padding: 2vw;
 }
 
 #th3 {
     position: absolute;
+    padding: 2vw;
+
 }
 
 #th4 {
     position: absolute;
+    padding: 2vw;
+
 }
 
 #th5 {
     position: absolute;
+    padding: 2vw;
+
 }
 
 #t2_img {
     position: absolute;
+    background-image: url(02_04_01_responsive_site_v2/stylepics/ide_3_v3.jpg);
+    background-size: cover;
+    width: 100vw;
+    height: 56.25vw;
+    top: 28vw;
+    left: 0vw;
+    padding: 0vw;
+
+
+}
+
+#t2_img2 {
+    position: absolute;
+    background-image: url(02_04_01_responsive_site_v2/raygun3.jpg);
+    background-size: cover;
+    width: 100vw;
+    height: 56.25vw;
+    top: 800vw;
+    left: 0vw;
+    padding: 0vw;
 }
 
 #t3_img {
     position: absolute;
+    padding: 2vw;
+
 }
 
 #t4_img {
     position: absolute;
+    padding: 2vw;
+
 }
 
 #t5_img {
     position: absolute;
+    padding: 2vw;
+
 }
 
 #t2_txt {
     position: absolute;
-    top: 20vw;
+    background-size: cover;
+    background-color: antiquewhite;
+    top: 80vw;
+    width: 90vw;
+    padding: 2vw;
+    margin: 2vw;
+    font-size: 2rem;
+    color: #000;
+    text-align: end;
+    font-family: 'Permanent Marker', cursive;
+    border: 1vw solid red;
+
+
 }
+
 
 #t3_txt {
     position: absolute;
     top: 20vw;
+    padding: 2vw;
 
 }
 
 #t4_txt {
     position: absolute;
     top: 20vw;
+    padding: 2vw;
 
 }
 
 #t5_txt {
     position: absolute;
     top: 20vw;
+    padding: 2vw;
 
+}
+
+
+#visitpage {
+    position: absolute;
+}
+
+#visitpage2 {
+    position: absolute;
 }
 
 /*----------------------------animationer-------------------------*/
