@@ -829,6 +829,7 @@ a:hover {
 
 @media only screen and (min-width: 770px) {
 
+
     a:hover {
         color: red;
     }
@@ -1384,55 +1385,70 @@ a:hover {
 
     #t5 {
         position: absolute;
+        top: 0vw;
     }
 
     #th5 {
         position: absolute;
+        top: 57vw;
+        left: 5vw;
+        z-index: 3;
     }
 
 
     #t5_txt {
         position: absolute;
+        top: 80vw;
+        left: 4vw;
+        line-height: 2vw;
+        width: 85vw;
+        text-align: center;
+
     }
 
     #t5s1 {
         position: absolute;
+        top: 95vw;
+        left: 50.5vw;
+        line-height: 2vw;
+        width: 40vw;
+
+        text-align: center;
+
+
     }
 
     #t5_nav {
         position: absolute;
+        top: 65vw;
+        left: 5vw;
+        height: 10vw;
+        width: 50vw;
+        line-height: 2vw;
+        background-color: #000;
+        text-align: center;
+
+
     }
 
-    #t5_klip1 {
-        position: absolute;
-    }
 
-    #t5_klip2 {
-        position: absolute;
-    }
-
-    #t5_klip3 {
-        position: absolute;
-    }
-
-    #t5_doku {
-        position: absolute;
-    }
-
-    #t5_side {
-        position: absolute;
-    }
 
     #t5_img {
         position: absolute;
+        top: 100vw;
+        left: 3vw;
+        width: 48vw;
+        height: 27vw;
     }
 
     #t5_vid1 {
-        position: absolute
+        position: absolute;
+        top: 1vw;
     }
 
     #t5_vid2 {
-        position: absolute
+        position: absolute;
+        top: 130vw;
     }
 
 }

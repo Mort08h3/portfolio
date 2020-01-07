@@ -1,10 +1,10 @@
 function mediaQuery(x) {
     if (x.matches) { // hvis media query matcher
-        document.body.style.backgroundColor = "yellow";
+        document.body.style.backgroundColor = "pink";
         deskUp();
         document.querySelector("#start").classList.remove("skjul")
     } else {
-        document.body.style.backgroundColor = "pink";
+        document.body.style.backgroundColor = "blue";
         burgerUp();
         document.querySelector("#start").classList.remove("skjul")
     }
