@@ -377,8 +377,20 @@ a:hover {
     background-size: cover;
     width: 100vw;
     height: 100vh;
-    top: 892vw;
+    top: 1280vw;
     left: 0vw;
+    padding: 0vw;
+
+}
+
+#t3_img2 {
+    position: absolute;
+    background-image: url(assets/Dataindsamling_MortenF%C3%A4hrmannDehn_Page_3.png);
+    background-size: cover;
+    width: 89vw;
+    height: 50vw;
+    top: 880vw;
+    left: 5vw;
     padding: 0vw;
 
 }
@@ -433,7 +445,7 @@ a:hover {
     position: absolute;
     background-size: cover;
     background-color: antiquewhite;
-    top: 101vw;
+    top: 80vw;
     width: 90vw;
     padding: 2vw;
     margin: 2vw;
@@ -442,8 +454,27 @@ a:hover {
     color: #000;
     text-align: start;
     font-family: 'Work Sans', sans-serif;
-    border: 1vw solid red;
+    border: 1vw solid #000;
+    border-radius: 10vw;
 
+
+}
+
+#t3_husk {
+    position: absolute;
+    background-size: cover;
+    background-color: antiquewhite;
+    top: 240vw;
+    width: 90vw;
+    padding: 2vw;
+    margin: 2vw;
+    font-size: 2rem;
+    line-height: 10vw;
+    color: #000;
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+    border: 1vw solid #000;
+    border-radius: 10vw;
 }
 
 #t3_nav {
@@ -462,6 +493,57 @@ a:hover {
     border: 1vw solid #000;
     border-radius: 10vw;
 
+}
+
+#t3s1 {
+    position: absolute;
+    background-size: cover;
+    background-color: antiquewhite;
+    top: 330vw;
+    width: 90vw;
+    padding: 2vw;
+    margin: 2vw;
+    font-size: 2rem;
+    line-height: 10vw;
+    color: #000;
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+    border: 1vw solid #000;
+    border-radius: 10vw;
+}
+
+#t3s2 {
+    position: absolute;
+    background-size: cover;
+    background-color: antiquewhite;
+    top: 940vw;
+    width: 90vw;
+    padding: 2vw;
+    margin: 2vw;
+    font-size: 2rem;
+    line-height: 10vw;
+    color: #000;
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+    border: 1vw solid #000;
+    border-radius: 10vw;
+}
+
+#t3s3 {
+    position: absolute;
+    background-size: cover;
+    background-color: antiquewhite;
+    top: 1505vw;
+    width: 90vw;
+    padding: 2vw;
+    margin: 2vw;
+    font-size: 2rem;
+    line-height: 10vw;
+    color: #000;
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+    border: 1vw solid #000;
+    border-radius: 10vw;
 }
 
 #t4_txt {
@@ -497,6 +579,8 @@ a:hover {
     border: 1vw solid red;
 
 }
+
+#t5_klip {}
 
 
 #visitpage {

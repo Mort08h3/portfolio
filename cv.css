@@ -216,6 +216,14 @@ a:hover {
     border-bottom: 0.1vh solid white;
 }
 
+#cv_link {
+    text-align: end;
+    color: white;
+    padding: 10vw 1vw 1vw 1vw;
+    margin: 2vw;
+    border-bottom: 0.1vh solid white;
+}
+
 
 #logo_container {
     width: 100%;
