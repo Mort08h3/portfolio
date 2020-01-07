@@ -329,13 +329,24 @@ a:hover {
     z-index: 0;
     text-align: center;
     border-radius: 60vw;
+    border: 1vw solid #000;
+
 
 }
 
 #th4 {
     position: absolute;
-    padding: 2vw;
+    top: 0vw;
+    left: 10vw;
+    padding: 4vw;
+    margin: 2vw;
     font-family: 'Indie Flower', cursive;
+    font-size: 1.5rem;
+    background-color: antiquewhite;
+    z-index: 0;
+    text-align: center;
+    border-radius: 60vw;
+    border: 1vw solid #000;
 
 }
 
@@ -397,7 +408,37 @@ a:hover {
 
 #t4_img {
     position: absolute;
-    padding: 2vw;
+    background-image: url(spil/assets/figur_good.svg);
+    background-size: cover;
+    width: 80vw;
+    height: 66.44vw;
+    top: 40vw;
+    left: 9vw;
+    padding: 0vw;
+
+}
+
+#t4_img2 {
+    position: absolute;
+    background-image: url(assets/04_03_04_Statemachinediagram_MortenFDehn_Page_2.png);
+    background-size: cover;
+    width: 100vw;
+    height: 74.2vw;
+    top: 460vw;
+    left: 0vw;
+    padding: 0vw;
+
+}
+
+#t4_img3 {
+    position: absolute;
+    background-image: url(noegenpaanettet/assets/Startside.svg);
+    background-size: cover;
+    width: 100vw;
+    height: 56.25vw;
+    top: 760vw;
+    left: 0vw;
+    padding: 0vw;
 
 }
 
@@ -550,18 +591,56 @@ a:hover {
     position: absolute;
     background-size: cover;
     background-color: antiquewhite;
+    top: 180vw;
+    width: 90vw;
+    padding: 2vw;
+    margin: 2vw;
+    font-size: 2rem;
+    line-height: 10vw;
+    color: #000;
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+    border: 1vw solid #000;
+    border-radius: 10vw;
+
+
+}
+
+#t4_nav {
+    position: absolute;
+    background-size: cover;
+    background-color: antiquewhite;
     top: 101vw;
     width: 90vw;
     padding: 2vw;
     margin: 2vw;
     font-size: 2rem;
-    line-height: 18vw;
+    line-height: 10vw;
     color: #000;
-    text-align: end;
-    font-family: 'Permanent Marker', cursive;
-    border: 1vw solid red;
-
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+    border: 1vw solid #000;
+    border-radius: 10vw;
 }
+
+#t4s1 {
+    position: absolute;
+    background-size: cover;
+    background-color: antiquewhite;
+    top: 550vw;
+    width: 90vw;
+    padding: 2vw;
+    margin: 2vw;
+    font-size: 2rem;
+    line-height: 10vw;
+    color: #000;
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+    border: 1vw solid #000;
+    border-radius: 10vw;
+}
+
+
 
 #t5_txt {
     position: absolute;
@@ -576,7 +655,7 @@ a:hover {
     color: #000;
     text-align: end;
     font-family: 'Permanent Marker', cursive;
-    border: 1vw solid red;
+    border: 1vw solid #000;
 
 }
 
