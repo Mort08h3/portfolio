@@ -100,6 +100,626 @@ body {
     border-radius: 6px;
 }
 
+/*----------------------------Generel--------------------------*/
+
+
+
+p {
+    font-size: 1.5rem;
+}
+
+a {
+    color: white;
+}
+
+/* mouse over link */
+a:hover {
+    color: hotpink;
+}
+
+#screen {
+    position: relative;
+    width: 100vw;
+    height: 56.25vw;
+}
+
+#topnav {
+    position: fixed;
+    top: 0;
+    z-index: 20;
+    width: 100%;
+}
+
+#port {
+    position: absolute;
+    background-size: cover;
+}
+
+#menu {
+    background: #000;
+    height: 10vh;
+    width: 100vw;
+}
+
+#menuknap {
+
+
+
+    position: absolute;
+    top: 2vh;
+    right: 2.5vw;
+    color: white;
+}
+
+#menux {
+
+
+    position: absolute;
+    top: 2vh;
+    right: 3vw;
+    color: white;
+}
+
+#links {
+    position: absolute;
+    background-size: cover;
+    z-index: 2;
+    top: 10vh;
+    right: 0vw;
+    width: 30vw;
+    height: 120vw;
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+    font-size: 1rem;
+    justify-content: space-around;
+    border-radius: 0px 0px 0px 60px;
+}
+
+#home_link {
+    text-align: end;
+    color: white;
+    padding: 1vw;
+    margin: 2vw;
+    border-bottom: 0.1vh solid white;
+}
+
+#tema2_link {
+    text-align: end;
+    color: white;
+    padding: 1vw;
+    margin: 2vw;
+    border-bottom: 0.1vh solid white;
+}
+
+#tema3_link {
+    text-align: end;
+    color: white;
+    padding: 1vw;
+    margin: 2vw;
+    border-bottom: 0.1vh solid white;
+}
+
+#tema4_link {
+    text-align: end;
+    color: white;
+    padding: 1vw;
+    margin: 2vw;
+    border-bottom: 0.1vh solid white;
+}
+
+#tema5_link {
+    text-align: end;
+    color: white;
+    padding: 1vw;
+    margin: 2vw;
+    border-bottom: 0.1vh solid white;
+}
+
+
+#logo_container {
+    width: 100%;
+}
+
+#logo_sprite {
+    z-index: 1;
+    position: absolute;
+    background-image: url(assets/logo_2.png);
+
+    background-size: cover;
+    top: 0vh;
+    right: 65vw;
+    width: 35vw;
+    height: 9vh;
+    padding: 0vw;
+    border-radius: 0px 0px 0px 30px;
+}
+
+#tema2 {
+    position: absolute;
+    top: 40vw;
+    left: 0vw;
+    text-align: start;
+    background-color: black;
+    color: white;
+    width: 70vw;
+
+    padding: 3vw;
+
+    border-bottom: 0.1vh solid white;
+    border-radius: 30px 30px 30px 30px;
+
+}
+
+#tema3 {
+    position: absolute;
+    top: 50vw;
+    left: 0vw;
+    text-align: start;
+    background-color: black;
+    color: white;
+    width: 70vw;
+
+    padding: 3vw;
+
+    border-bottom: 0.1vh solid white;
+    border-radius: 30px 30px 30px 30px;
+
+}
+
+#tema4 {
+    position: absolute;
+    top: 60vw;
+    left: 0vw;
+    text-align: start;
+    background-color: black;
+    color: white;
+    width: 70vw;
+    padding: 3vw;
+
+    border-bottom: 0.1vh solid white;
+    border-radius: 30px 30px 30px 30px;
+
+}
+
+#tema5 {
+    position: absolute;
+    top: 100vw;
+    left: 0vw;
+    text-align: start;
+    background-color: black;
+    color: white;
+    width: 70vw;
+
+    padding: 3vw;
+
+    border-bottom: 0.1vh solid white;
+    border-radius: 30px 30px 30px 30px;
+
+}
+
+
+#pages {
+    position: absolute;
+    top: 0vw;
+    width: 100%;
+
+}
+
+#start {
+    position: absolute;
+    top: 10vw;
+    width: 100%;
+
+}
+
+#velkommen {
+    position: absolute;
+    background-size: cover;
+    top: 10vw;
+    left: 0vw;
+    text-align: center;
+
+}
+
+#start_img {
+    position: absolute;
+    background-image: url(assets/logo_2.png);
+    background-size: cover;
+    top: 45vw;
+    left: 14vw;
+    width: 64vw;
+    height: 38vw;
+}
+
+#start_txt {
+    position: absolute;
+    background-size: cover;
+    top: 70vw;
+    padding: 3vw;
+    text-align: center;
+
+}
+
+#t2 {
+    position: absolute;
+
+    width: 90%;
+    top: 20vw;
+    padding: 3vw;
+
+}
+
+#t3 {
+    position: absolute;
+    width: 100%;
+    top: 20vw;
+
+
+}
+
+#t4 {
+    position: absolute;
+    width: 100%;
+    top: 20vw;
+
+
+}
+
+#t5 {
+    position: absolute;
+    width: 100%;
+    top: 20vw;
+
+
+}
+
+#th2 {
+    position: absolute;
+}
+
+#th3 {
+    position: absolute;
+}
+
+#th4 {
+    position: absolute;
+}
+
+#th5 {
+    position: absolute;
+}
+
+#t2_img {
+    position: absolute;
+
+}
+
+#t3_img {
+    position: absolute;
+}
+
+#t4_img {
+    position: absolute;
+}
+
+#t5_img {
+    position: absolute;
+}
+
+#t2_txt {
+    position: absolute;
+    top: 20vw;
+}
+
+#t3_txt {
+    position: absolute;
+    top: 20vw;
+
+}
+
+#t4_txt {
+    position: absolute;
+    top: 20vw;
+
+}
+
+#t5_txt {
+    position: absolute;
+    top: 20vw;
+
+}
+
+/*----------------------------animationer-------------------------*/
+
+.skjul {
+    display: none;
+    pointer-events: none;
+}
+
+
+
+/*---------------------------Media query 1 -----------------------*/
+@media only screen and (min-width: 770px) {
+    a:hover {
+        color: red;
+    }
+
+    #port {
+        position: absolute;
+
+    }
+
+
+
+    #menu {
+        display: none;
+        pointer-events: none;
+
+    }
+
+    #menuknap {
+        display: none;
+        pointer-events: none;
+    }
+
+    #links {
+        position: absolute;
+        top: 0vw;
+        left: 0vw;
+        background-color: white;
+        width: 90vw;
+        height: 12vh;
+        display: flex;
+        z-index: 20;
+    }
+
+    #home_link {
+
+        text-align: center;
+
+        background-color: black;
+        color: white;
+        flex: 6;
+        margin: 0vw;
+        padding: 2vw;
+
+
+        border-right: 0.1vw solid white;
+        z-index: 20;
+
+    }
+
+    #tema2_link {
+
+        text-align: center;
+
+
+
+        background-color: black;
+        color: white;
+        flex: 6;
+        margin: 0vw;
+        padding: 2vw;
+
+        border-right: 0.1vw solid white;
+        border-left: 0.1vw solid white;
+        z-index: 20;
+
+    }
+
+    #tema3_link {
+
+        text-align: center;
+        background-color: black;
+        color: white;
+        flex: 6;
+        margin: 0vw;
+        padding: 2vw;
+
+        border-right: 0.1vw solid white;
+        border-left: 0.1vw solid white;
+        z-index: 20;
+
+
+    }
+
+    #tema4_link {
+
+        text-align: center;
+
+
+
+        background-color: black;
+        color: white;
+        flex: 6;
+        margin: 0vw;
+        padding: 2vw;
+
+        border-right: 0.1vw solid white;
+        border-left: 0.1vw solid white;
+        z-index: 20;
+
+
+    }
+
+    #tema5_link {
+        text-align: center;
+
+
+
+        background-color: black;
+        color: white;
+        flex: 6;
+        margin: 0vw;
+        padding: 2vw;
+
+        border-left: 0.1vw solid white;
+        z-index: 20;
+
+    }
+
+
+
+    #logo_container {
+        position: absolute;
+
+
+    }
+
+    #logo_sprite {
+        z-index: 2;
+        position: absolute;
+        background-color: #000;
+        background-image: url(assets/logo_2.png);
+        background-size: cover;
+        top: 0vw;
+        left: 90vw;
+        width: 14vw;
+        height: 17vh;
+        padding: 3vw;
+        border-radius: 0px 0px 0px 30px;
+        align-content: center;
+    }
+
+    #tema2 {
+        position: absolute;
+        top: 4vw;
+        left: 18.1vw;
+        height: 10vw;
+        width: 30vw;
+        padding: 3vw;
+        background-color: #000;
+        color: white;
+        border-radius: 0px 0px 30px 30px;
+
+
+    }
+
+    #tema3 {
+        position: absolute;
+        height: 12.5vw;
+        width: 30vw;
+        top: 4vw;
+        left: 30vw;
+        padding: 3vw;
+        background-color: #000;
+        color: white;
+        border-radius: 0px 0px 30px 30px;
+
+
+    }
+
+    #tema4 {
+        position: absolute;
+        height: 18vw;
+        width: 30vw;
+        top: 4vw;
+        left: 42vw;
+        padding: 3vw;
+        background-color: #000;
+        color: white;
+        border-radius: 0px 0px 30px 30px;
+
+
+    }
+
+    #tema5 {
+        position: absolute;
+        height: 12vw;
+        width: 30vw;
+        top: 4vw;
+        left: 60vw;
+        padding: 3vw 3vw 3vw 3vw;
+        background-color: #000;
+        color: white;
+        border-radius: 0px 0px 30px 30px;
+
+
+    }
+
+    /*---------------------pages-----------------*/
+    #pages {
+        position: absolute;
+        top: 1vw;
+        z-index: 0;
+
+    }
+
+    /*--------------------t2link-----------*/
+    #t2link1 {}
+
+    #t2link2 {}
+
+    #t2doku {}
+
+    /*--------------------t3link-----------*/
+
+
+
+
+    #t3link1 {}
+
+    #t3link2 {}
+
+    #t3link3 {}
+
+    #t3link4 {}
+
+    #t3doku {}
+
+    /*--------------------t4link-----------*/
+    #t4link1 {}
+
+    #t4link2 {}
+
+    #t4link3 {}
+
+    #t4link4 {}
+
+    #t4link5 {}
+
+    #t4doku {}
+
+    /*--------------------t5link-----------*/
+    #t5link1 {}
+
+    #t5link2 {}
+
+    #t5link3 {}
+
+    #t5doku {}
+
+    #start {
+        position: absolute;
+        top: 12vw;
+    }
+
+    #velkommen {
+        position: absolute;
+        top: 2vh;
+        justify-content: center;
+    }
+
+
+
+    #start_img {
+
+        top: 20vh;
+        z-index: 1;
+
+    }
+
+    #start_txt {
+        position: absolute;
+        top: 40vw;
+        text-align: center;
+        background-size: cover;
+    }
+
+}
+
+
 /* Media queries - Responsive timeline on screens less than 600px wide */
 @media screen and (max-width: 600px) {
 
