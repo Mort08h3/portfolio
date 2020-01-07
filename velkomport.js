@@ -100,6 +100,10 @@ function visTema2D() {
     //-------------------- click---> seeT2 -----------//
     document.querySelector("#t2link1").addEventListener("click", seeT2);
 
+
+
+
+
 }
 
 function visTema3D() {
@@ -117,6 +121,10 @@ function visTema3D() {
 
     //-------------------- click---> seeT3 -----------//
     document.querySelector("#t3link1").addEventListener("click", seeT3);
+    document.querySelector("#t3link2").addEventListener("click", seeT3);
+    document.querySelector("#t3link3").addEventListener("click", seeT3);
+    document.querySelector("#t3link4").addEventListener("click", seeT3);
+
 
 }
 
@@ -160,6 +168,8 @@ function visTema5D() {
     //-------------------- mouseout=skjul----> deskUp -----------//
     //-------------------- click---> seeT5 -----------//
     document.querySelector("#t5link1").addEventListener("click", seeT5);
+    document.querySelector("#t5link2").addEventListener("click", seeT5);
+
 
 
 
@@ -171,6 +181,7 @@ function seeT2() {
     console.log("seeT2")
     //----------remove forrige------------//
     document.querySelector("#t2link1").removeEventListener("click", seeT2);
+
 
     //----------add skjul på andre------------//
 
@@ -196,6 +207,9 @@ function seeT2() {
 function seeT3() {
     console.log("seeT3")
     //----------remove forrige------------//
+    document.querySelector("#t3link2").removeEventListener("click", seeT3);
+    document.querySelector("#t3link3").removeEventListener("click", seeT3);
+    document.querySelector("#t3link4").removeEventListener("click", seeT3);
     document.querySelector("#t3link1").removeEventListener("click", seeT3);
 
     //----------add skjul på andre------------//
@@ -247,6 +261,8 @@ function seeT4() {
 function seeT5() {
     console.log("seeT5")
     //----------remove forrige------------//
+    document.querySelector("#t5link2").removeEventListener("click", seeT5);
+
     document.querySelector("#t5link1").removeEventListener("click", seeT5);
 
     //----------add skjul på sub-navs------------//
@@ -282,6 +298,13 @@ function burgerUp() {
 
 
     //----------remove forrige------------//
+    document.querySelector("#t5link2").removeEventListener("click", burgerUp);
+
+    document.querySelector("#t3link4").removeEventListener("click", burgerUp);
+    document.querySelector("#t3link3").removeEventListener("click", burgerUp);
+
+    document.querySelector("#t3link2").removeEventListener("click", burgerUp);
+
     document.querySelector("#menuknap").removeEventListener("click", burgerUp);
     document.querySelector("#t5link1").removeEventListener("click", burgerUp);
     document.querySelector("#t4link1").removeEventListener("click", burgerUp);
@@ -384,6 +407,12 @@ function visTema3() {
 
     document.querySelector("#t3link1").addEventListener("click", seeT3M);
     document.querySelector("#t3link1").addEventListener("click", burgerUp);
+    document.querySelector("#t3link2").addEventListener("click", seeT3M);
+    document.querySelector("#t3link2").addEventListener("click", burgerUp);
+    document.querySelector("#t3link3").addEventListener("click", seeT3M);
+    document.querySelector("#t3link3").addEventListener("click", burgerUp);
+    document.querySelector("#t3link4").addEventListener("click", seeT3M);
+    document.querySelector("#t3link4").addEventListener("click", burgerUp);
 
 
 }
@@ -430,6 +459,8 @@ function visTema5() {
 
     document.querySelector("#t5link1").addEventListener("click", seeT5M);
     document.querySelector("#t5link1").addEventListener("click", burgerUp);
+    document.querySelector("#t5link2").addEventListener("click", seeT5M);
+    document.querySelector("#t5link2").addEventListener("click", burgerUp);
 
 
 
@@ -465,6 +496,11 @@ function seeT2M() {
 function seeT3M() {
     console.log("seeT3M")
     //----------remove forrige------------//
+    document.querySelector("#t3link4").removeEventListener("click", seeT3M);
+    document.querySelector("#t3link3").removeEventListener("click", seeT3M);
+    document.querySelector("#t3link2").removeEventListener("click", seeT3M);
+
+
     document.querySelector("#t3link1").removeEventListener("click", seeT3M);
 
     //----------add skjul på andre------------//
@@ -516,6 +552,7 @@ function seeT4M() {
 function seeT5M() {
     console.log("seeT5M")
     //----------remove forrige------------//
+    document.querySelector("#t5link2").removeEventListener("click", seeT5M);
     document.querySelector("#t5link1").removeEventListener("click", seeT5M);
 
     //----------add skjul på sub-navs------------//

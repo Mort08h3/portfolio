@@ -35,7 +35,7 @@ h3 {
 
 a {
     width: 100%;
-    color: white;
+    color: pink;
 }
 
 /* mouse over link */
@@ -319,7 +319,7 @@ a:hover {
     z-index: 1;
     text-align: center;
     border-radius: 90vw;
-    border: 1vw solid red;
+    border: 1vw solid #000;
 
 
 }
@@ -522,7 +522,7 @@ a:hover {
     color: #000;
     text-align: end;
     font-family: 'Marvel', sans-serif;
-    border: 1vw solid red;
+    border: 1vw solid #000;
 
 
 }
@@ -758,15 +758,25 @@ a:hover {
 
 
 
-#t5_klip1 {}
+#t5_klip1 {
+    color: black
+}
 
-#t5_klip2 {}
+#t5_klip2 {
+    color: black
+}
 
-#t5_klip3 {}
+#t5_klip3 {
+    color: black
+}
 
-#t5_doku {}
+#t5_doku {
+    color: black
+}
 
-#t5_side {}
+#t5_side {
+    color: black
+}
 
 
 
