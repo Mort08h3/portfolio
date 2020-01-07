@@ -352,7 +352,17 @@ a:hover {
 
 #th5 {
     position: absolute;
-    padding: 2vw;
+    top: 0vw;
+    left: 10vw;
+    padding: 4vw;
+    margin: 2vw;
+    font-family: 'Indie Flower', cursive;
+    font-size: 1.5rem;
+    background-color: antiquewhite;
+    z-index: 0;
+    text-align: center;
+    border-radius: 60vw;
+    border: 1vw solid #000;
 
 }
 
@@ -659,7 +669,84 @@ a:hover {
 
 }
 
-#t5_klip {}
+#t5_nav {
+    position: absolute;
+    background-size: cover;
+    background-color: antiquewhite;
+    top: 101vw;
+    width: 90vw;
+    padding: 2vw;
+    margin: 2vw;
+    font-size: 2rem;
+    line-height: 10vw;
+    color: #000;
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+    border: 1vw solid #000;
+    border-radius: 10vw;
+}
+
+#t5s1 {
+    position: absolute;
+    background-size: cover;
+    background-color: antiquewhite;
+    top: 330vw;
+    width: 90vw;
+    padding: 2vw;
+    margin: 2vw;
+    font-size: 2rem;
+    line-height: 10vw;
+    color: #000;
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+    border: 1vw solid #000;
+    border-radius: 10vw;
+}
+
+#t5s2 {
+    position: absolute;
+    background-size: cover;
+    background-color: antiquewhite;
+    top: 940vw;
+    width: 90vw;
+    padding: 2vw;
+    margin: 2vw;
+    font-size: 2rem;
+    line-height: 10vw;
+    color: #000;
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+    border: 1vw solid #000;
+    border-radius: 10vw;
+}
+
+#t5s3 {
+    position: absolute;
+    background-size: cover;
+    background-color: antiquewhite;
+    top: 1505vw;
+    width: 90vw;
+    padding: 2vw;
+    margin: 2vw;
+    font-size: 2rem;
+    line-height: 10vw;
+    color: #000;
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+    border: 1vw solid #000;
+    border-radius: 10vw;
+}
+
+#t5_klip1 {}
+
+#t5_klip2 {}
+
+#t5_klip3 {}
+
+#t5_doku {}
+
+#t5_side {}
+
 
 
 #visitpage {
