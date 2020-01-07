@@ -20,6 +20,11 @@ p {
     font-size: 1.5rem;
 }
 
+h1 {
+    font-family: 'Playfair Display', serif;
+
+}
+
 h2 {
     font-size: 2rem;
 }
@@ -241,8 +246,9 @@ a:hover {
 #velkommen {
     position: absolute;
     background-size: cover;
+    width: 96vw;
     top: 10vw;
-    left: 25vw;
+    left: 0vw;
     padding: 2vw;
     text-align: center;
 
@@ -261,8 +267,9 @@ a:hover {
 #start_txt {
     position: absolute;
     background-size: cover;
+    width: 96vw;
     top: 70vw;
-    padding: 4vw;
+    padding: 2vw;
     text-align: center;
 
 }
@@ -352,8 +359,8 @@ a:hover {
 
 #th5 {
     position: absolute;
-    top: 0vw;
-    left: 10vw;
+    top: 56.25vw;
+    left: 15vw;
     padding: 4vw;
     margin: 2vw;
     font-family: 'Indie Flower', cursive;
@@ -454,7 +461,51 @@ a:hover {
 
 #t5_img {
     position: absolute;
-    padding: 2vw;
+    background-image: url(assets/magnus_about.jpg);
+    background-size: cover;
+    width: 100vw;
+    height: 56.25vw;
+    top: 440vw;
+    left: 0vw;
+    padding: 0vw;
+
+}
+
+
+.vid {
+    position: relative;
+    padding-bottom: 56.25%;
+    /* 16:9 */
+    padding-top: 25px;
+    height: 0;
+}
+
+.vid iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+}
+
+#t5_vid1 {
+
+    top: 0vw;
+    padding: 0vw;
+    background-size: cover;
+    width: 100vw;
+    height: 56.25vw;
+
+}
+
+#t5_vid2 {
+    position: absolute;
+    top: 810vw;
+    padding: 0vw;
+    background-size: cover;
+    width: 100vw;
+    height: 56.25vw;
 
 }
 
@@ -656,16 +707,18 @@ a:hover {
     position: absolute;
     background-size: cover;
     background-color: antiquewhite;
-    top: 101vw;
+    top: 165vw;
     width: 90vw;
     padding: 2vw;
     margin: 2vw;
     font-size: 2rem;
-    line-height: 18vw;
+    line-height: 10vw;
     color: #000;
-    text-align: end;
-    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
     border: 1vw solid #000;
+    border-radius: 10vw;
+
 
 }
 
@@ -673,7 +726,7 @@ a:hover {
     position: absolute;
     background-size: cover;
     background-color: antiquewhite;
-    top: 101vw;
+    top: 90vw;
     width: 90vw;
     padding: 2vw;
     margin: 2vw;
@@ -690,7 +743,7 @@ a:hover {
     position: absolute;
     background-size: cover;
     background-color: antiquewhite;
-    top: 330vw;
+    top: 500vw;
     width: 90vw;
     padding: 2vw;
     margin: 2vw;
@@ -703,39 +756,7 @@ a:hover {
     border-radius: 10vw;
 }
 
-#t5s2 {
-    position: absolute;
-    background-size: cover;
-    background-color: antiquewhite;
-    top: 940vw;
-    width: 90vw;
-    padding: 2vw;
-    margin: 2vw;
-    font-size: 2rem;
-    line-height: 10vw;
-    color: #000;
-    text-align: center;
-    font-family: 'Work Sans', sans-serif;
-    border: 1vw solid #000;
-    border-radius: 10vw;
-}
 
-#t5s3 {
-    position: absolute;
-    background-size: cover;
-    background-color: antiquewhite;
-    top: 1505vw;
-    width: 90vw;
-    padding: 2vw;
-    margin: 2vw;
-    font-size: 2rem;
-    line-height: 10vw;
-    color: #000;
-    text-align: center;
-    font-family: 'Work Sans', sans-serif;
-    border: 1vw solid #000;
-    border-radius: 10vw;
-}
 
 #t5_klip1 {}
 
@@ -784,11 +805,16 @@ a:hover {
 
 
 
-/*---------------------------Media query 1 -----------------------*/
+/*---------------------------Media query 1 ----------------------------------------*/
+
+
 @media only screen and (min-width: 770px) {
+
     a:hover {
         color: red;
     }
+
+
 
     #port {
         position: absolute;
@@ -813,10 +839,11 @@ a:hover {
         top: 0vw;
         left: 0vw;
         background-color: white;
-        width: 90vw;
-        height: 12vh;
+        width: 92vw;
+        height: 8vh;
         display: flex;
         z-index: 20;
+        align-content: center;
     }
 
     #home_link {
@@ -825,13 +852,16 @@ a:hover {
 
         background-color: black;
         color: white;
-        flex: 6;
+        flex: 7;
         margin: 0vw;
         padding: 2vw;
+        top: 0vw;
 
 
         border-right: 0.1vw solid white;
         z-index: 20;
+
+
 
     }
 
@@ -843,7 +873,7 @@ a:hover {
 
         background-color: black;
         color: white;
-        flex: 6;
+        flex: 7;
         margin: 0vw;
         padding: 2vw;
 
@@ -858,7 +888,7 @@ a:hover {
         text-align: center;
         background-color: black;
         color: white;
-        flex: 6;
+        flex: 7;
         margin: 0vw;
         padding: 2vw;
 
@@ -877,7 +907,7 @@ a:hover {
 
         background-color: black;
         color: white;
-        flex: 6;
+        flex: 7;
         margin: 0vw;
         padding: 2vw;
 
@@ -895,7 +925,7 @@ a:hover {
 
         background-color: black;
         color: white;
-        flex: 6;
+        flex: 7;
         margin: 0vw;
         padding: 2vw;
 
@@ -904,6 +934,21 @@ a:hover {
 
     }
 
+    #cv_link {
+        text-align: center;
+
+
+
+        background-color: black;
+        color: white;
+        flex: 7;
+        margin: 0vw;
+        padding: 2vw;
+
+        border-left: 0.1vw solid white;
+        z-index: 20;
+
+    }
 
 
     #logo_container {
@@ -920,11 +965,12 @@ a:hover {
         background-size: cover;
         top: 0vw;
         left: 90vw;
-        width: 14vw;
-        height: 17vh;
-        padding: 3vw;
+        width: 8vw;
+        height: 4.5vw;
+        padding: 1vw;
         border-radius: 0px 0px 0px 30px;
-        align-content: center;
+
+        z-index: 21;
     }
 
     #tema2 {
@@ -986,6 +1032,8 @@ a:hover {
     /*---------------------pages-----------------*/
     #pages {
         position: absolute;
+        background-size: cover;
+        width: 100%;
         top: 1vw;
         z-index: 0;
 
@@ -1036,30 +1084,226 @@ a:hover {
     #t5doku {}
 
     #start {
-        position: absolute;
-        top: 12vw;
+
+        top: 0vw;
+        width: 100%;
+
     }
 
     #velkommen {
         position: absolute;
-        top: 2vh;
-        justify-content: center;
+        font-family: 'Playfair Display', serif;
+        font-size: 3.1rem;
+        width: 92vw;
+        top: 2vw;
+        left: 0vw;
+        padding: 0vw;
+        text-align: center;
+        margin: 0;
+        flex: 1;
+
     }
 
 
 
     #start_img {
-
-        top: 20vh;
+        position: absolute;
+        top: 15vw;
         z-index: 1;
+
+
 
     }
 
     #start_txt {
-        position: absolute;
-        top: 40vw;
+
+        top: 38vw;
+        left: 8vw;
+        width: 92vw;
+        padding: 0;
         text-align: center;
         background-size: cover;
+        font-family: 'Work Sans', sans-serif;
+
+
+
+    }
+
+
+    #t2 {
+        position: absolute;
+        background-size: cover;
+        top: 0;
+
+    }
+
+    #th2 {
+        position: absolute;
+        top: 56.25vw;
+        width: 5vw;
+        height: 5vw;
+        font-size: 3rem;
+        padding: 2vw;
+    }
+
+
+    #t2_txt {
+        position: absolute;
+        line-height: 5vw;
+    }
+
+    #t2_txt2 {
+        position: absolute;
+    }
+
+    #t2_img {
+        position: absolute;
+        top: 0vw;
+    }
+
+    #t2_img2 {
+        position: absolute;
+    }
+
+    #visitpage {
+        position: absolute;
+    }
+
+    #visitpage2 {
+        position: absolute;
+    }
+
+    /*------------------------------t3----------------*/
+
+    #t3 {
+        position: absolute;
+    }
+
+    #th3 {
+        position: absolute;
+    }
+
+
+    #t3_txt {
+        position: absolute;
+    }
+
+    #t3s1 {
+        position: absolute;
+    }
+
+    #t3s2 {
+        position: absolute;
+    }
+
+    #t3s3 {
+        position: absolute;
+    }
+
+    #t3_nav {
+        position: absolute;
+    }
+
+    #t3_husk {
+        position: absolute;
+    }
+
+    #t3_img {
+        position: absolute;
+    }
+
+    #t3_img2 {
+        position: absolute;
+    }
+
+    /*------------------------------t4----------------*/
+
+    #t4 {
+        position: absolute;
+    }
+
+    #th4 {
+        position: absolute;
+    }
+
+
+    #t4_txt {
+        position: absolute;
+    }
+
+    #t4s1 {
+        position: absolute;
+    }
+
+    #t4_nav {
+        position: absolute;
+    }
+
+    #t4_img {
+        position: absolute;
+    }
+
+    #t4_img2 {
+        position: absolute;
+    }
+
+    #t4_img3 {
+        position: absolute;
+    }
+
+    /*------------------------------t5----------------*/
+
+    #t5 {
+        position: absolute;
+    }
+
+    #th5 {
+        position: absolute;
+    }
+
+
+    #t5_txt {
+        position: absolute;
+    }
+
+    #t5s1 {
+        position: absolute;
+    }
+
+    #t5_nav {
+        position: absolute;
+    }
+
+    #t5_klip1 {
+        position: absolute;
+    }
+
+    #t5_klip2 {
+        position: absolute;
+    }
+
+    #t5_klip3 {
+        position: absolute;
+    }
+
+    #t5_doku {
+        position: absolute;
+    }
+
+    #t5_side {
+        position: absolute;
+    }
+
+    #t5_img {
+        position: absolute;
+    }
+
+    #t5_vid1 {
+        position: absolute
+    }
+
+    #t5_vid2 {
+        position: absolute
     }
 
 }

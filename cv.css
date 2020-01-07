@@ -109,7 +109,7 @@ p {
 }
 
 a {
-    color: white;
+    color: #000;
 }
 
 /* mouse over link */
@@ -477,7 +477,7 @@ a:hover {
         left: 0vw;
         background-color: white;
         width: 90vw;
-        height: 12vh;
+        height: 10vh;
         display: flex;
         z-index: 20;
     }
@@ -488,7 +488,7 @@ a:hover {
 
         background-color: black;
         color: white;
-        flex: 6;
+        flex: 7;
         margin: 0vw;
         padding: 2vw;
 
@@ -506,7 +506,7 @@ a:hover {
 
         background-color: black;
         color: white;
-        flex: 6;
+        flex: 7;
         margin: 0vw;
         padding: 2vw;
 
@@ -521,7 +521,7 @@ a:hover {
         text-align: center;
         background-color: black;
         color: white;
-        flex: 6;
+        flex: 7;
         margin: 0vw;
         padding: 2vw;
 
@@ -540,7 +540,7 @@ a:hover {
 
         background-color: black;
         color: white;
-        flex: 6;
+        flex: 7;
         margin: 0vw;
         padding: 2vw;
 
@@ -558,7 +558,23 @@ a:hover {
 
         background-color: black;
         color: white;
-        flex: 6;
+        flex: 7;
+        margin: 0vw;
+        padding: 2vw;
+
+        border-left: 0.1vw solid white;
+        z-index: 20;
+
+    }
+
+    #cv_link {
+        text-align: center;
+
+
+
+        background-color: black;
+        color: white;
+        flex: 7;
         margin: 0vw;
         padding: 2vw;
 
@@ -645,6 +661,8 @@ a:hover {
 
 
     }
+
+
 
     /*---------------------pages-----------------*/
     #pages {

@@ -27,7 +27,7 @@ function deskUp() {
 
     //-------------------remove forrige listeners-----------------//
 
-    //document.querySelector("#pages").removeEventListener("mouseover", deskUp);
+    document.querySelector("#timeline").removeEventListener("mouseover", deskUp);
     document.querySelector("#logo_container").removeEventListener("mouseover", deskUp);
     document.querySelector("#home_link").removeEventListener("mouseover", deskUp);
 
@@ -59,7 +59,7 @@ function deskUp() {
     //---------------------add eventlistener---> tema2-------------//
     document.querySelector("#tema5_link").addEventListener("mouseover", visTema5D);
 
-    document.querySelector("#pages").addEventListener("mouseover", deskUp);
+    document.querySelector("#timeline").addEventListener("mouseover", deskUp);
     document.querySelector("#logo_container").addEventListener("mouseover", deskUp);
     document.querySelector("#home_link").addEventListener("mouseover", deskUp);
 

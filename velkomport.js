@@ -2,9 +2,11 @@ function mediaQuery(x) {
     if (x.matches) { // hvis media query matcher
         document.body.style.backgroundColor = "yellow";
         deskUp();
+        document.querySelector("#start").classList.remove("skjul")
     } else {
         document.body.style.backgroundColor = "pink";
         burgerUp();
+        document.querySelector("#start").classList.remove("skjul")
     }
 }
 
@@ -14,7 +16,7 @@ var x = window.matchMedia("(min-width: 770px)")
 mediaQuery(x) // Call listener function at run time
 x.addListener(mediaQuery) // Attach listener function on state changes
 
-//--------------------------
+//--------------------------//
 
 
 
@@ -25,7 +27,11 @@ x.addListener(mediaQuery) // Attach listener function on state changes
 function deskUp() {
     console.log("deskUp")
 
+
+
+
     //-------------------remove forrige listeners-----------------//
+    document.querySelector("#cv_link").removeEventListener("mouseover", deskUp);
 
     document.querySelector("#pages").removeEventListener("mouseover", deskUp);
     document.querySelector("#logo_container").removeEventListener("mouseover", deskUp);
@@ -62,6 +68,7 @@ function deskUp() {
     document.querySelector("#pages").addEventListener("mouseover", deskUp);
     document.querySelector("#logo_container").addEventListener("mouseover", deskUp);
     document.querySelector("#home_link").addEventListener("mouseover", deskUp);
+    document.querySelector("#cv_link").addEventListener("mouseover", deskUp);
 
 
 
@@ -173,15 +180,15 @@ function seeT2() {
     document.querySelector("#tema5").classList.add("skjul")
 
     //----------add skjul på andre T------------//
-    document.querySelector("#start").classList.add("skjul")
+    document.querySelector("#start").classList.add("skjul");
 
-    document.querySelector("#t5").classList.add("skjul")
-    document.querySelector("#t3").classList.add("skjul")
-    document.querySelector("#t4").classList.add("skjul")
+    document.querySelector("#t5").classList.add("skjul");
+    document.querySelector("#t3").classList.add("skjul");
+    document.querySelector("#t4").classList.add("skjul");
 
 
     //-------------------- vis T2-----------//
-    document.querySelector("#t2").classList.remove("skjul")
+    document.querySelector("#t2").classList.remove("skjul");
 
 
 }
@@ -271,6 +278,8 @@ function seeT5() {
 
 function burgerUp() {
     console.log("burgerUp")
+
+
 
     //----------remove forrige------------//
     document.querySelector("#menuknap").removeEventListener("click", burgerUp);
