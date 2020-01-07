@@ -21,7 +21,7 @@ p {
 }
 
 h2 {
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 h3 {
@@ -307,23 +307,35 @@ a:hover {
 
     padding: 10vw;
     font-family: 'Permanent Marker', cursive;
-    font-size: 4rem;
+    font-size: 3rem;
     background-color: antiquewhite;
     z-index: 1;
     text-align: center;
     border-radius: 90vw;
+    border: 1vw solid red;
+
 
 }
 
 #th3 {
     position: absolute;
-    padding: 2vw;
+    top: 0vw;
+    left: 3vw;
+    padding: 4vw;
+    margin: 2vw;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5rem;
+    background-color: antiquewhite;
+    z-index: 0;
+    text-align: center;
+    border-radius: 60vw;
 
 }
 
 #th4 {
     position: absolute;
     padding: 2vw;
+    font-family: 'Indie Flower', cursive;
 
 }
 
@@ -353,7 +365,7 @@ a:hover {
     background-size: cover;
     width: 100vw;
     height: 56.25vw;
-    top: 892vw;
+    top: 610vw;
     left: 0vw;
     padding: 0vw;
 
@@ -361,7 +373,13 @@ a:hover {
 
 #t3_img {
     position: absolute;
-    padding: 2vw;
+    background-image: url(assets/iPhone%20X-XS%20%E2%80%93%20Landing%20Page.jpg);
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    top: 892vw;
+    left: 0vw;
+    padding: 0vw;
 
 }
 
@@ -386,42 +404,105 @@ a:hover {
     padding: 2vw;
     margin: 2vw;
     font-size: 2rem;
+    line-height: 14vw;
+    color: #000;
+    text-align: end;
+    font-family: 'Marvel', sans-serif;
+    border: 1vw solid red;
+
+
+}
+
+#t2_txt2 {
+    position: absolute;
+    background-size: cover;
+    background-color: antiquewhite;
+    top: 660vw;
+    width: 90vw;
+    padding: 2vw;
+    margin: 2vw;
+    font-size: 2rem;
+    line-height: 14vw;
+    color: #000;
+    text-align: end;
+    font-family: 'Marvel', sans-serif;
+    border: 1vw solid red;
+}
+
+#t3_txt {
+    position: absolute;
+    background-size: cover;
+    background-color: antiquewhite;
+    top: 101vw;
+    width: 90vw;
+    padding: 2vw;
+    margin: 2vw;
+    font-size: 2rem;
+    line-height: 14vw;
+    color: #000;
+    text-align: start;
+    font-family: 'Work Sans', sans-serif;
+    border: 1vw solid red;
+
+}
+
+#t3_nav {
+    position: absolute;
+    background-size: cover;
+    background-color: antiquewhite;
+    top: 33vw;
+    width: 90vw;
+    padding: 2vw;
+    margin: 2vw;
+    font-size: 2rem;
+    line-height: 10vw;
+    color: #000;
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+    border: 1vw solid #000;
+    border-radius: 10vw;
+
+}
+
+#t4_txt {
+    position: absolute;
+    background-size: cover;
+    background-color: antiquewhite;
+    top: 101vw;
+    width: 90vw;
+    padding: 2vw;
+    margin: 2vw;
+    font-size: 2rem;
     line-height: 18vw;
     color: #000;
     text-align: end;
     font-family: 'Permanent Marker', cursive;
     border: 1vw solid red;
 
-
-}
-
-
-#t3_txt {
-    position: absolute;
-    top: 20vw;
-    padding: 2vw;
-
-}
-
-#t4_txt {
-    position: absolute;
-    top: 20vw;
-    padding: 2vw;
-
 }
 
 #t5_txt {
     position: absolute;
-    top: 20vw;
+    background-size: cover;
+    background-color: antiquewhite;
+    top: 101vw;
+    width: 90vw;
     padding: 2vw;
+    margin: 2vw;
+    font-size: 2rem;
+    line-height: 18vw;
+    color: #000;
+    text-align: end;
+    font-family: 'Permanent Marker', cursive;
+    border: 1vw solid red;
 
 }
 
 
 #visitpage {
     position: absolute;
-    top: 390vw;
-    left: 10vw;
+    top: 305vw;
+    left: 8vw;
     background-color: #000;
     font-size: 2rem;
     padding: 2vw;
