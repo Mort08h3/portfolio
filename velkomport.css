@@ -494,6 +494,7 @@ a:hover {
     left: 0;
     width: 100%;
     height: 100%;
+    border: 0px;
 
 }
 
@@ -1218,43 +1219,97 @@ a:hover {
 
     #t3 {
         position: absolute;
+        top: 2vw;
     }
 
     #th3 {
         position: absolute;
+        left: 6.2vw;
     }
 
 
     #t3_txt {
         position: absolute;
+        top: 50vw;
+        width: 20vw;
+        line-height: 2vw;
+        font-size: 2rem;
+        left: 0.5vw;
+        background-color: #000;
+        color: antiquewhite;
+
+
     }
 
     #t3s1 {
         position: absolute;
+        top: 50vw;
+        line-height: 2vw;
+        font-size: 2rem;
+        width: 60vw;
+        left: 30vw;
+
     }
 
     #t3s2 {
         position: absolute;
+        top: 100vw;
+        line-height: 2vw;
+        font-size: 2rem;
+        width: 60vw;
+        left: 30vw;
+
+
     }
 
     #t3s3 {
+
         position: absolute;
+        top: 130vw;
+        line-height: 2vw;
+        font-size: 2rem;
+        width: 60vw;
+        left: 30vw;
+
     }
 
     #t3_nav {
         position: absolute;
+        top: 18vw;
+        left: 4vw;
+        height: 12vw;
+        width: 30vw;
+        line-height: 3vw;
+        padding: 1vw;
+        margin: 0vw;
+        text-align: center;
+        background-color: #000;
     }
 
     #t3_husk {
         position: absolute;
+        position: absolute;
+        top: 31vw;
+        line-height: 2vw;
+        font-size: 2rem;
     }
 
     #t3_img {
         position: absolute;
+        top: 95vw;
+        left: 5vw;
+        height: 43.3vw;
+        width: 20vw;
+
     }
 
     #t3_img2 {
         position: absolute;
+        top: 3vw;
+        left: 40vw;
+        width: 50vw;
+        height: 28.08vw;
+
     }
 
     /*------------------------------t4----------------*/
