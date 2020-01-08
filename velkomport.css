@@ -35,7 +35,7 @@ h3 {
 
 a {
     width: 100%;
-    color: pink;
+    color: blue;
 }
 
 /* mouse over link */
@@ -175,6 +175,7 @@ a:hover {
     position: absolute;
     top: 40vw;
     left: 0vw;
+    font-size: 1.5rem;
     text-align: start;
     background-color: black;
     color: white;
@@ -195,7 +196,7 @@ a:hover {
     background-color: black;
     color: white;
     width: 70vw;
-
+    font-size: 1.5rem;
     padding: 3vw;
 
     border-bottom: 0.1vh solid white;
@@ -212,7 +213,7 @@ a:hover {
     color: white;
     width: 70vw;
     padding: 3vw;
-
+    font-size: 1.5rem;
     border-bottom: 0.1vh solid white;
     border-radius: 30px 30px 30px 30px;
 
@@ -226,7 +227,7 @@ a:hover {
     background-color: black;
     color: white;
     width: 70vw;
-
+    font-size: 1.5rem;
     padding: 3vw;
 
     border-bottom: 0.1vh solid white;
@@ -399,11 +400,12 @@ a:hover {
     position: absolute;
     background-image: url(02_04_01_responsive_site_v2/raygun3.jpg);
     background-size: cover;
-    width: 100vw;
-    height: 56.25vw;
-    top: 610vw;
-    left: 0vw;
+    width: 60vw;
+    height: 44vw;
+    top: 618vw;
+    left: 20vw;
     padding: 0vw;
+
 
 }
 
@@ -532,6 +534,8 @@ a:hover {
     text-align: end;
     font-family: 'Marvel', sans-serif;
     border: 1vw solid #000;
+    border-radius: 10vw;
+
 
 
 }
@@ -541,8 +545,9 @@ a:hover {
     background-size: cover;
     background-color: antiquewhite;
     top: 660vw;
+
     width: 90vw;
-    padding: 2vw;
+    padding: 1vw;
     margin: 2vw;
     font-size: 2rem;
     line-height: 14vw;
@@ -550,6 +555,8 @@ a:hover {
     text-align: end;
     font-family: 'Marvel', sans-serif;
     border: 1vw solid #000;
+    border-radius: 10vw;
+
 }
 
 #t3_txt {
@@ -842,7 +849,9 @@ a:hover {
 
     }
 
-
+    a {
+        color: antiquewhite;
+    }
 
     #port {
         position: absolute;
@@ -884,6 +893,7 @@ a:hover {
         margin: 0vw;
         padding: 2vw;
         top: 0vw;
+        border-bottom: 0px;
 
 
         border-right: 0.1vw solid white;
@@ -904,9 +914,10 @@ a:hover {
         flex: 7;
         margin: 0vw;
         padding: 2vw;
+        border-bottom: 0px;
 
         border-right: 0.1vw solid white;
-        border-left: 0.1vw solid white;
+
         z-index: 20;
 
     }
@@ -919,9 +930,9 @@ a:hover {
         flex: 7;
         margin: 0vw;
         padding: 2vw;
-
+        border-bottom: 0px;
         border-right: 0.1vw solid white;
-        border-left: 0.1vw solid white;
+
         z-index: 20;
 
 
@@ -938,9 +949,10 @@ a:hover {
         flex: 7;
         margin: 0vw;
         padding: 2vw;
+        border-bottom: 0px;
 
         border-right: 0.1vw solid white;
-        border-left: 0.1vw solid white;
+
         z-index: 20;
 
 
@@ -956,9 +968,12 @@ a:hover {
         flex: 7;
         margin: 0vw;
         padding: 2vw;
+        border-bottom: 0px;
 
-        border-left: 0.1vw solid white;
+
+        ;
         z-index: 20;
+
 
     }
 
@@ -1004,8 +1019,8 @@ a:hover {
     #tema2 {
         position: absolute;
         top: 4vw;
-        left: 18.1vw;
-        height: 10vw;
+        left: 15vw;
+        height: 12vw;
         width: 30vw;
         padding: 3vw;
         background-color: #000;
@@ -1017,10 +1032,10 @@ a:hover {
 
     #tema3 {
         position: absolute;
-        height: 12.5vw;
+        height: 12vw;
         width: 30vw;
         top: 4vw;
-        left: 30vw;
+        left: 30.5vw;
         padding: 3vw;
         background-color: #000;
         color: white;
@@ -1031,10 +1046,10 @@ a:hover {
 
     #tema4 {
         position: absolute;
-        height: 18vw;
+        height: 12vw;
         width: 30vw;
         top: 4vw;
-        left: 42vw;
+        left: 38vw;
         padding: 3vw;
         background-color: #000;
         color: white;
@@ -1048,7 +1063,7 @@ a:hover {
         height: 12vw;
         width: 30vw;
         top: 4vw;
-        left: 60vw;
+        left: 50vw;
         padding: 3vw 3vw 3vw 3vw;
         background-color: #000;
         color: white;
@@ -1070,48 +1085,84 @@ a:hover {
 
 
     /*--------------------t2link-----------*/
-    #t2link1 {}
+    #t2link1 {
+        color: antiquewhite;
+    }
 
-    #t2link2 {}
+    #t2link2 {
+        color: antiquewhite;
+    }
 
-    #t2doku {}
+    #t2doku {
+        color: antiquewhite;
+    }
 
     /*--------------------t3link-----------*/
 
 
 
 
-    #t3link1 {}
+    #t3link1 {
+        color: antiquewhite;
+    }
 
-    #t3link2 {}
+    #t3link2 {
+        color: antiquewhite;
+    }
 
-    #t3link3 {}
+    #t3link3 {
+        color: antiquewhite;
+    }
 
-    #t3link4 {}
+    #t3link4 {
+        color: antiquewhite;
+    }
 
-    #t3doku {}
+    #t3doku {
+        color: antiquewhite;
+    }
 
     /*--------------------t4link-----------*/
-    #t4link1 {}
+    #t4link1 {
+        color: antiquewhite;
+    }
 
-    #t4link2 {}
+    #t4link2 {
+        color: antiquewhite;
+    }
 
-    #t4link3 {}
+    #t4link3 {
+        color: antiquewhite;
+    }
 
-    #t4link4 {}
+    #t4link4 {
+        color: antiquewhite;
+    }
 
-    #t4link5 {}
+    #t4link5 {
+        color: antiquewhite;
+    }
 
-    #t4doku {}
+    #t4doku {
+        color: antiquewhite;
+    }
 
     /*--------------------t5link-----------*/
-    #t5link1 {}
+    #t5link1 {
+        color: antiquewhite;
+    }
 
-    #t5link2 {}
+    #t5link2 {
+        color: antiquewhite;
+    }
 
-    #t5link3 {}
+    #t5link3 {
+        color: antiquewhite;
+    }
 
-    #t5doku {}
+    #t5doku {
+        color: antiquewhite;
+    }
 
     #start {
 
@@ -1138,7 +1189,7 @@ a:hover {
 
     #start_img {
         position: absolute;
-        top: 15vw;
+        top: 5vw;
         z-index: 1;
 
 
@@ -1148,7 +1199,7 @@ a:hover {
     #start_txt {
 
         top: 38vw;
-        left: 8vw;
+        left: 5vw;
         width: 92vw;
         padding: 0;
         text-align: center;
@@ -1187,7 +1238,7 @@ a:hover {
     #t2_txt2 {
         position: absolute;
         top: 107vw;
-        left: 30vw;
+        left: 32.5vw;
         line-height: 2vw;
         font-size: 2rem;
         width: 59vw;

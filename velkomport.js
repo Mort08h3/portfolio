@@ -4,7 +4,7 @@ function mediaQuery(x) {
         deskUp();
         document.querySelector("#start").classList.remove("skjul")
     } else {
-        document.body.style.backgroundColor = "blue";
+        document.body.style.backgroundColor = "pink";
         burgerUp();
         document.querySelector("#start").classList.remove("skjul")
     }
