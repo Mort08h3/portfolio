@@ -35,12 +35,12 @@ h3 {
 
 a {
     width: 100%;
-    color: blue;
+    color: pink;
 }
 
 /* mouse over link */
 a:hover {
-    color: hotpink;
+    color: blue;
 }
 
 #screen {
@@ -838,7 +838,7 @@ a:hover {
 
 
     a:hover {
-        color: red;
+        color: pink;
     }
 
     h4 {
